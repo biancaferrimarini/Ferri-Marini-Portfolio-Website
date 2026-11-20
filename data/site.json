@@ -1,0 +1,49 @@
+{
+  "biography": [
+    "Bianca Ferri Marini is the CEO and Founder of Moirai 3, a web-based SaaS platform that lets fashion designers, brands, students and retailers create customized 3D garments and export production-ready 3D Fashion Tech Packs from a library of ready-made templates, with no 3D skills required."
+  ],
+  "about": [
+    {
+      "title": "Career",
+      "text": "She studied at the Accademia Italiana di Arte, Moda e Design in Rome and has 7+ years in tailoring and costume design and 5+ years in digital and 3D apparel design, combining creative direction and styling with 3D technology."
+    },
+    {
+      "title": "Software & Skills",
+      "text": "CLO3D · Digital patternmaking · Fabric simulation · Texturing · Rendering · Tailoring · Patternmaking"
+    },
+    {
+      "title": "Exhibitions",
+      "items": [
+        "Finalist and First Prize, Dubai Expo 2020 (3D fashion and gaming project)",
+        "Fashion designer showcasing at Altaroma, Rome Fashion Week",
+        "Phygital designer showcasing at Digital Fashion Week, NYC and Paris"
+      ]
+    },
+    {
+      "title": "Collaborations",
+      "items": [
+        "Designer and stylist for Eyelet Milano, a clothing brand",
+        "Costume designer for the Netflix series I Medici: Masters of Florence and Leonardo",
+        "Moirai 3 is a member of the NVIDIA Inception Program (2025–2026)",
+        "Moirai 3 is an official partner of VMOD, South Korea’s leading digital fabric library."
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "label": "Email",
+      "value": "biancaferrimarini@gmail.com",
+      "href": "mailto:biancaferrimarini@gmail.com"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "Bianca Ferri Marini Profile",
+      "href": "https://www.linkedin.com/in/bianca-luna-ferri-marini-55b4a0160/?locale=it"
+    },
+    {
+      "label": "Instagram",
+      "value": "Bianca Ferri Marini Profile",
+      "href": "https://www.instagram.com/ferri.marini/"
+    }
+  ]
+}

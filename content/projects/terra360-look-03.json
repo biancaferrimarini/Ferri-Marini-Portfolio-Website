@@ -1,0 +1,68 @@
+{
+  "id": "f6fd9365-f7b9-417c-a339-f9dad32fd5df",
+  "title": "Look 03",
+  "concept": "",
+  "year": "",
+  "category": "Terra360 / Project to come",
+  "description": "Project description to come.",
+  "software": [],
+  "techniques": [],
+  "layout": "wide",
+  "renders": [
+    {
+      "src": "",
+      "alt": "",
+      "label": "RENDER 01",
+      "caption": "Front view / To come"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "label": "RENDER 02",
+      "caption": "Back view / To come"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "label": "RENDER 03",
+      "caption": "Side view / To come"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "label": "DETAIL 01",
+      "caption": "Detail 01 / To come"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "label": "DETAIL 02",
+      "caption": "Detail 02 / To come"
+    }
+  ],
+  "reference": {
+    "src": "",
+    "alt": "",
+    "caption": "Reference / Sketch to come",
+    "credit": ""
+  },
+  "model": {
+    "src": "assets/models/demo-tshirt.glb",
+    "poster": "",
+    "alt": "Demonstration T-shirt, interactive 3D preview",
+    "cameraOrbit": "15deg 75deg 105%",
+    "demo": true
+  },
+  "anchor": "terra360-look-03",
+  "collection": "077b7bee-1818-421e-a85c-86145c30a2d7",
+  "order": 30,
+  "status": "published",
+  "construction": {
+    "fit": "",
+    "collar": "",
+    "pockets": "",
+    "seams": "",
+    "fabric": "",
+    "volume": ""
+  }
+}

@@ -1,0 +1,863 @@
+{
+  "collections": [
+    {
+      "id": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+      "title": "Design Remakes",
+      "projects": [
+        {
+          "id": "2d2f721e-c013-47bc-9acb-882ccbde6572",
+          "title": "Denim, Reframed",
+          "concept": "An everyday icon, recut in digital form.",
+          "year": "—",
+          "category": "Remake — Classic Calvin Klein Jeans Trucker Shirt",
+          "description": "Denim follows the body in a close-fitting silhouette. A classic shirt collar and two chest pockets anchor the familiar construction, while precise topstitching traces each seam. Recreated through digital patternmaking and fabric simulation, the shirt retains the structure of its physical reference with a deliberately restrained volume.",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "Close-fitting, shaped through the waist."
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "Classic shirt collar."
+            },
+            {
+              "label": "Pockets",
+              "text": "Two patch pockets at the chest."
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "Defined panel seams, traced with precise topstitching."
+            },
+            {
+              "label": "Fabric",
+              "text": "Denim, with a structured hand."
+            },
+            {
+              "label": "Volume",
+              "text": "Controlled ease, held close to the body."
+            }
+          ],
+          "software": [
+            "CLO3D",
+            "Blender"
+          ],
+          "techniques": [
+            "Digital patternmaking",
+            "Fabric simulation",
+            "Rendering"
+          ],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046579/CK_JEANS_2_ufn0ia.png",
+              "alt": "Front render of a dark denim Calvin Klein-inspired trucker shirt",
+              "label": "RENDER 01",
+              "caption": "Front view"
+            },
+            {
+              "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046580/CK_JEANS_3_tfaurz.png",
+              "alt": "Close-up render of the denim shirt construction",
+              "label": "RENDER 02",
+              "caption": "Construction detail"
+            },
+            {
+              "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046578/CK_JEANS_4_vqke9x.png",
+              "alt": "Three-quarter render of a dark denim trucker shirt",
+              "label": "RENDER 03",
+              "caption": "Three-quarter view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 01",
+              "caption": "Detail 01 / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 02",
+              "caption": "Detail 02 / To come"
+            }
+          ],
+          "reference": {
+            "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046589/study-01-reference_egjijr.jpg",
+            "alt": "Model wearing a dark Calvin Klein denim shirt",
+            "caption": "Physical reference — Calvin Klein denim shirt",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/study-01-jeans-shirt.glb",
+            "preview": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046611/CROPPED_SHIRT_WOMAN_MOIRAI_id525b.png",
+            "poster": "",
+            "alt": "Interactive 3D denim trucker shirt",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "message": "DEMO / 3D JEANS SHIRT"
+          },
+          "anchor": "study-01",
+          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+          "order": 10,
+          "status": "published"
+        },
+        {
+          "id": "e9f0a73c-4855-49da-b6cd-67ef7f075f31",
+          "title": "Study 02",
+          "year": "—",
+          "category": "Project placeholder",
+          "description": "Project description to come.",
+          "software": [
+            "CLO3D"
+          ],
+          "techniques": [
+            "Tailoring",
+            "Texturing",
+            "Rendering"
+          ],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL",
+              "caption": "Construction detail"
+            }
+          ],
+          "reference": {
+            "src": "",
+            "alt": "",
+            "caption": "Physical reference",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/demo-tshirt.glb",
+            "poster": "",
+            "alt": "Demonstration T-shirt, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "preview": ""
+          },
+          "anchor": "study-02",
+          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+          "order": 20,
+          "status": "published",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "To come"
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "To come"
+            },
+            {
+              "label": "Pockets",
+              "text": "To come"
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "To come"
+            },
+            {
+              "label": "Fabric",
+              "text": "To come"
+            },
+            {
+              "label": "Volume",
+              "text": "To come"
+            }
+          ]
+        },
+        {
+          "id": "e166f2aa-b94b-4354-85b1-882de405769c",
+          "title": "Study 03",
+          "year": "—",
+          "category": "Project placeholder",
+          "description": "Project description to come.",
+          "software": [
+            "CLO3D"
+          ],
+          "techniques": [
+            "Digital patternmaking",
+            "Fabric simulation"
+          ],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL",
+              "caption": "Construction detail"
+            }
+          ],
+          "reference": {
+            "src": "",
+            "alt": "",
+            "caption": "Physical reference",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/demo-tshirt.glb",
+            "poster": "",
+            "alt": "Demonstration T-shirt, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "preview": ""
+          },
+          "anchor": "study-03",
+          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+          "order": 30,
+          "status": "published",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "To come"
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "To come"
+            },
+            {
+              "label": "Pockets",
+              "text": "To come"
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "To come"
+            },
+            {
+              "label": "Fabric",
+              "text": "To come"
+            },
+            {
+              "label": "Volume",
+              "text": "To come"
+            }
+          ]
+        },
+        {
+          "id": "b428d4fe-c2f5-437f-8278-2fb5748f1649",
+          "title": "Study 04",
+          "year": "—",
+          "category": "Project placeholder",
+          "description": "Project description to come.",
+          "software": [
+            "CLO3D"
+          ],
+          "techniques": [
+            "Digital patternmaking",
+            "Fabric simulation"
+          ],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL",
+              "caption": "Construction detail"
+            }
+          ],
+          "reference": {
+            "src": "",
+            "alt": "",
+            "caption": "Physical reference",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/demo-tshirt.glb",
+            "poster": "",
+            "alt": "Demonstration T-shirt, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "preview": ""
+          },
+          "anchor": "study-04",
+          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+          "order": 40,
+          "status": "published",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "To come"
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "To come"
+            },
+            {
+              "label": "Pockets",
+              "text": "To come"
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "To come"
+            },
+            {
+              "label": "Fabric",
+              "text": "To come"
+            },
+            {
+              "label": "Volume",
+              "text": "To come"
+            }
+          ]
+        },
+        {
+          "id": "3683c664-23ee-41dc-b5a7-30867debfd8d",
+          "title": "Study 05",
+          "year": "—",
+          "category": "Project placeholder",
+          "description": "Project description to come.",
+          "software": [
+            "CLO3D"
+          ],
+          "techniques": [
+            "Digital patternmaking",
+            "Fabric simulation"
+          ],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL",
+              "caption": "Construction detail"
+            }
+          ],
+          "reference": {
+            "src": "",
+            "alt": "",
+            "caption": "Physical reference",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/demo-tshirt.glb",
+            "poster": "",
+            "alt": "Demonstration T-shirt, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "preview": ""
+          },
+          "anchor": "study-05",
+          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+          "order": 50,
+          "status": "published",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "To come"
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "To come"
+            },
+            {
+              "label": "Pockets",
+              "text": "To come"
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "To come"
+            },
+            {
+              "label": "Fabric",
+              "text": "To come"
+            },
+            {
+              "label": "Volume",
+              "text": "To come"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "077b7bee-1818-421e-a85c-86145c30a2d7",
+      "title": "Terra360",
+      "projects": [
+        {
+          "id": "7c902d16-46b6-4a9e-bd0b-28699eedb829",
+          "title": "Look 01",
+          "concept": "",
+          "year": "",
+          "category": "Terra360 / Project to come",
+          "description": "Project description to come.",
+          "software": [],
+          "techniques": [],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 03",
+              "caption": "Side view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 01",
+              "caption": "Detail 01 / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 02",
+              "caption": "Detail 02 / To come"
+            }
+          ],
+          "reference": {
+            "src": "",
+            "alt": "",
+            "caption": "Reference / Sketch to come",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/demo-tshirt.glb",
+            "poster": "",
+            "alt": "Demonstration T-shirt, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "preview": ""
+          },
+          "anchor": "terra360-look-01",
+          "collection": "077b7bee-1818-421e-a85c-86145c30a2d7",
+          "order": 10,
+          "status": "published",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "To come"
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "To come"
+            },
+            {
+              "label": "Pockets",
+              "text": "To come"
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "To come"
+            },
+            {
+              "label": "Fabric",
+              "text": "To come"
+            },
+            {
+              "label": "Volume",
+              "text": "To come"
+            }
+          ]
+        },
+        {
+          "id": "34438717-7182-4519-bff2-6c4f054c0df0",
+          "title": "Look 02",
+          "concept": "",
+          "year": "",
+          "category": "Terra360 / Project to come",
+          "description": "Project description to come.",
+          "software": [],
+          "techniques": [],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 03",
+              "caption": "Side view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 01",
+              "caption": "Detail 01 / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 02",
+              "caption": "Detail 02 / To come"
+            }
+          ],
+          "reference": {
+            "src": "",
+            "alt": "",
+            "caption": "Reference / Sketch to come",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/demo-tshirt.glb",
+            "poster": "",
+            "alt": "Demonstration T-shirt, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "preview": ""
+          },
+          "anchor": "terra360-look-02",
+          "collection": "077b7bee-1818-421e-a85c-86145c30a2d7",
+          "order": 20,
+          "status": "published",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "To come"
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "To come"
+            },
+            {
+              "label": "Pockets",
+              "text": "To come"
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "To come"
+            },
+            {
+              "label": "Fabric",
+              "text": "To come"
+            },
+            {
+              "label": "Volume",
+              "text": "To come"
+            }
+          ]
+        },
+        {
+          "id": "f6fd9365-f7b9-417c-a339-f9dad32fd5df",
+          "title": "Look 03",
+          "concept": "",
+          "year": "",
+          "category": "Terra360 / Project to come",
+          "description": "Project description to come.",
+          "software": [],
+          "techniques": [],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 03",
+              "caption": "Side view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 01",
+              "caption": "Detail 01 / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 02",
+              "caption": "Detail 02 / To come"
+            }
+          ],
+          "reference": {
+            "src": "",
+            "alt": "",
+            "caption": "Reference / Sketch to come",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/demo-tshirt.glb",
+            "poster": "",
+            "alt": "Demonstration T-shirt, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "preview": ""
+          },
+          "anchor": "terra360-look-03",
+          "collection": "077b7bee-1818-421e-a85c-86145c30a2d7",
+          "order": 30,
+          "status": "published",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "To come"
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "To come"
+            },
+            {
+              "label": "Pockets",
+              "text": "To come"
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "To come"
+            },
+            {
+              "label": "Fabric",
+              "text": "To come"
+            },
+            {
+              "label": "Volume",
+              "text": "To come"
+            }
+          ]
+        },
+        {
+          "id": "8dc2cf74-a6e8-415c-8233-caef0ef84d9e",
+          "title": "Look 04",
+          "concept": "",
+          "year": "",
+          "category": "Terra360 / Project to come",
+          "description": "Project description to come.",
+          "software": [],
+          "techniques": [],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 03",
+              "caption": "Side view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 01",
+              "caption": "Detail 01 / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 02",
+              "caption": "Detail 02 / To come"
+            }
+          ],
+          "reference": {
+            "src": "",
+            "alt": "",
+            "caption": "Reference / Sketch to come",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/demo-tshirt.glb",
+            "poster": "",
+            "alt": "Demonstration T-shirt, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "preview": ""
+          },
+          "anchor": "terra360-look-04",
+          "collection": "077b7bee-1818-421e-a85c-86145c30a2d7",
+          "order": 40,
+          "status": "published",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "To come"
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "To come"
+            },
+            {
+              "label": "Pockets",
+              "text": "To come"
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "To come"
+            },
+            {
+              "label": "Fabric",
+              "text": "To come"
+            },
+            {
+              "label": "Volume",
+              "text": "To come"
+            }
+          ]
+        },
+        {
+          "id": "ee4e04bf-1f4e-476a-8f2a-d804a795be10",
+          "title": "Look 05",
+          "concept": "",
+          "year": "",
+          "category": "Terra360 / Project to come",
+          "description": "Project description to come.",
+          "software": [],
+          "techniques": [],
+          "layout": "wide",
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 03",
+              "caption": "Side view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 01",
+              "caption": "Detail 01 / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 02",
+              "caption": "Detail 02 / To come"
+            }
+          ],
+          "reference": {
+            "src": "",
+            "alt": "",
+            "caption": "Reference / Sketch to come",
+            "credit": ""
+          },
+          "model": {
+            "src": "assets/models/demo-tshirt.glb",
+            "poster": "",
+            "alt": "Demonstration T-shirt, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "preview": ""
+          },
+          "anchor": "terra360-look-05",
+          "collection": "077b7bee-1818-421e-a85c-86145c30a2d7",
+          "order": 50,
+          "status": "published",
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "To come"
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "To come"
+            },
+            {
+              "label": "Pockets",
+              "text": "To come"
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "To come"
+            },
+            {
+              "label": "Fabric",
+              "text": "To come"
+            },
+            {
+              "label": "Volume",
+              "text": "To come"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
