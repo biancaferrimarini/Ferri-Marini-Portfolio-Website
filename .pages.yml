@@ -1,0 +1,216 @@
+media:
+  - name: images
+    label: Immagini
+    input: assets/images
+    output: /assets/images
+    rename: random
+    extensions: [png, jpg, jpeg, webp, avif]
+  - name: models
+    label: Modelli 3D e texture
+    input: assets/models
+    output: /assets/models
+    rename: false
+    extensions: [glb, gltf, bin, png, jpg, jpeg, webp]
+content:
+  - name: projects
+    label: Lavori
+    type: collection
+    path: content/projects
+    format: json
+    filename: "{year}{month}{day}-{hour}{minute}{second}-{primary}.json"
+    view:
+      primary: title
+      fields: [title, status, order]
+      sort: order
+      order: asc
+    fields:
+      - name: id
+        type: uuid
+        hidden: true
+      - name: anchor
+        type: string
+        hidden: true
+      - name: title
+        label: Titolo del lavoro
+        type: string
+        required: true
+      - name: collection
+        label: Collezione
+        type: reference
+        required: true
+        description: Crea prima la collezione nella sezione Collezioni, poi selezionala qui.
+        options:
+          collection: collections
+          value: "{fields.id}"
+          label: "{title}"
+          search: title
+      - name: status
+        label: Stato
+        type: select
+        default: draft
+        required: true
+        options:
+          values:
+            - name: draft
+              label: Bozza
+            - name: published
+              label: Pubblicato
+      - name: order
+        label: Posizione nella collezione
+        type: number
+        default: 10
+        description: Un numero piu basso appare prima. Usa 10, 20, 30 per inserire altri lavori in mezzo.
+      - name: year
+        label: Anno
+        type: string
+      - name: category
+        label: Sottotitolo o riferimento al capo originale
+        type: string
+      - name: concept
+        label: Breve frase concettuale
+        type: string
+      - name: description
+        label: Descrizione
+        type: text
+      - name: software
+        label: Software
+        type: string
+        list: true
+      - name: techniques
+        label: Tecniche
+        type: string
+        list: true
+      - name: renders
+        label: Render (massimo cinque)
+        type: object
+        list:
+          max: 5
+          collapsible: true
+        fields:
+          - name: src
+            label: Immagine
+            type: image
+            options:
+              media: images
+          - name: alt
+            label: Descrizione accessibile dell'immagine
+            type: string
+          - name: caption
+            label: Didascalia
+            type: string
+      - name: construction
+        label: Construction notes
+        type: object
+        fields:
+          - name: fit
+            label: Fit
+            type: text
+          - name: collar
+            label: Collar / Neckline
+            type: text
+          - name: pockets
+            label: Pockets
+            type: text
+          - name: seams
+            label: Seams and topstitching
+            type: text
+          - name: fabric
+            label: Fabric
+            type: text
+          - name: volume
+            label: Volume
+            type: text
+      - name: reference
+        label: Physical reference / Sketch
+        type: object
+        fields:
+          - name: src
+            label: Immagine di riferimento
+            type: image
+            options:
+              media: images
+          - name: alt
+            label: Descrizione accessibile
+            type: string
+          - name: caption
+            label: Didascalia
+            type: string
+          - name: credit
+            label: Credito fotografico
+            type: string
+      - name: model
+        label: Viewer 3D
+        type: object
+        fields:
+          - name: src
+            label: Carica o scegli il modello GLB / GLTF
+            type: file
+            description: GLB consigliato. Usa un nome diverso per ogni modello, per non sovrascrivere un altro capo. Per file troppo pesanti puoi usare il campo URL esterno qui sotto.
+            options:
+              media: models
+              extensions: [glb, gltf]
+          - name: externalURL
+            label: URL esterno del modello (facoltativo)
+            type: string
+            description: Solo se preferisci ospitare il modello altrove. Un URL HTTPS compilato qui ha precedenza sul file caricato.
+          - name: dependencies
+            label: File collegati a un GLTF (BIN e texture)
+            type: file
+            description: Non servono per un GLB completo. Con GLTF conserva nomi e sottocartelle richiesti dal modello; non rinominare le texture.
+            options:
+              media: models
+              multiple: true
+              extensions: [bin, png, jpg, jpeg, webp]
+          - name: alt
+            label: Descrizione del modello
+            type: string
+          - name: preview
+            label: Immagine di invito al 3D (facoltativa)
+            type: image
+            options:
+              media: images
+          - name: cameraOrbit
+            label: Vista iniziale
+            type: string
+            default: 15deg 75deg 105%
+          - name: demo
+            label: Modello dimostrativo
+            type: boolean
+            default: false
+          - name: message
+            label: Testo sotto il pulsante 3D (facoltativo)
+            type: string
+  - name: collections
+    label: Collezioni
+    type: collection
+    path: content/collections
+    format: json
+    filename: "{year}{month}{day}-{hour}{minute}{second}-{primary}.json"
+    view:
+      primary: title
+      fields: [title, status, order]
+      sort: order
+      order: asc
+    fields:
+      - name: id
+        type: uuid
+        hidden: true
+      - name: title
+        label: Nome della collezione
+        type: string
+        required: true
+      - name: order
+        label: Posizione nel selettore
+        type: number
+        default: 10
+      - name: status
+        label: Stato
+        type: select
+        default: draft
+        required: true
+        options:
+          values:
+            - name: draft
+              label: Bozza
+            - name: published
+              label: Pubblicato
