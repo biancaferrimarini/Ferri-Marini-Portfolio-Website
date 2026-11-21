@@ -1,18 +1,14 @@
 {
   "id": "2d2f721e-c013-47bc-9acb-882ccbde6572",
+  "anchor": "study-01",
   "title": "Denim, Reframed",
-  "concept": "An everyday icon, recut in digital form.",
+  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+  "status": "published",
+  "order": 10,
   "year": "—",
   "category": "Remake — Classic Calvin Klein Jeans Trucker Shirt",
+  "concept": "An everyday icon, recut in digital form.",
   "description": "Denim follows the body in a close-fitting silhouette. A classic shirt collar and two chest pockets anchor the familiar construction, while precise topstitching traces each seam. Recreated through digital patternmaking and fabric simulation, the shirt retains the structure of its physical reference with a deliberately restrained volume.",
-  "construction": {
-    "fit": "Close-fitting, shaped through the waist.",
-    "collar": "Classic shirt collar.",
-    "pockets": "Two patch pockets at the chest.",
-    "seams": "Defined panel seams, traced with precise topstitching.",
-    "fabric": "Denim, with a structured hand.",
-    "volume": "Controlled ease, held close to the body."
-  },
   "software": [
     "CLO3D",
     "Blender"
@@ -22,56 +18,48 @@
     "Fabric simulation",
     "Rendering"
   ],
-  "layout": "wide",
   "renders": [
     {
       "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046579/CK_JEANS_2_ufn0ia.png",
       "alt": "Front render of a dark denim Calvin Klein-inspired trucker shirt",
-      "label": "RENDER 01",
       "caption": "Front view"
     },
     {
       "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046580/CK_JEANS_3_tfaurz.png",
       "alt": "Close-up render of the denim shirt construction",
-      "label": "RENDER 02",
       "caption": "Construction detail"
     },
     {
       "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046578/CK_JEANS_4_vqke9x.png",
       "alt": "Three-quarter render of a dark denim trucker shirt",
-      "label": "RENDER 03",
       "caption": "Three-quarter view"
     },
     {
-      "src": "",
-      "alt": "",
-      "label": "DETAIL 01",
       "caption": "Detail 01 / To come"
     },
     {
-      "src": "",
-      "alt": "",
-      "label": "DETAIL 02",
       "caption": "Detail 02 / To come"
     }
   ],
+  "construction": {
+    "fit": "Close-fitting, shaped through the waist.",
+    "collar": "Classic shirt collar.",
+    "pockets": "Two patch pockets at the chest.",
+    "seams": "Defined panel seams, traced with precise topstitching.",
+    "fabric": "Denim, with a structured hand.",
+    "volume": "Controlled ease, held close to the body."
+  },
   "reference": {
     "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046589/study-01-reference_egjijr.jpg",
     "alt": "Model wearing a dark Calvin Klein denim shirt",
-    "caption": "Physical reference — Calvin Klein denim shirt",
-    "credit": ""
+    "caption": "Physical reference — Calvin Klein denim shirt"
   },
   "model": {
-    "src": "assets/models/study-01-jeans-shirt.glb",
-    "preview": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046611/CROPPED_SHIRT_WOMAN_MOIRAI_id525b.png",
-    "poster": "",
+    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795258264/ck_shirt_gltf_xqngkr.glb",
     "alt": "Interactive 3D denim trucker shirt",
+    "preview": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046611/CROPPED_SHIRT_WOMAN_MOIRAI_id525b.png",
     "cameraOrbit": "15deg 75deg 105%",
     "demo": true,
     "message": "DEMO / 3D JEANS SHIRT"
-  },
-  "anchor": "study-01",
-  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
-  "order": 10,
-  "status": "published"
+  }
 }
