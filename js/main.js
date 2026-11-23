@@ -164,10 +164,10 @@ function imageSwipeDirection(start,end,scale){
 function createImageDialog(){
   const dialog=document.createElement('dialog');dialog.className='image-dialog';dialog.setAttribute('aria-label','Full image viewer');
   const glass=sign=>`<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6M6.5 10h7${sign==='+'?'M10 6.5v7':''}"/></svg>`;
-  dialog.innerHTML=`<button class="image-close" aria-label="Close image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button><button class="image-previous" aria-label="Previous image"><span aria-hidden="true">←</span></button><button class="image-next" aria-label="Next image"><span aria-hidden="true">→</span></button><div class="image-viewport"><img draggable="false" alt=""><span class="image-status" role="status">Loading image…</span></div><div class="image-dialog-footer"><span class="image-position" aria-live="polite"></span><p class="image-caption"></p><p class="image-help"><span class="image-desktop-help">Zoom + / − · Left-click and drag to pan</span><span class="image-touch-help">Swipe to browse · Pinch to zoom</span></p><div class="image-zoom-controls"><button class="image-zoom-out" aria-label="Zoom out">${glass('−')}</button><output class="image-zoom-value" aria-live="polite">100%</output><button class="image-zoom-in" aria-label="Zoom in">${glass('+')}</button></div></div>`;
+  dialog.innerHTML=`<button class="image-close" aria-label="Close image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button><button class="image-previous" aria-label="Previous image"><span aria-hidden="true">←</span></button><button class="image-next" aria-label="Next image"><span aria-hidden="true">→</span></button><div class="image-viewport"><div class="image-frame"><img draggable="false" alt=""></div><span class="image-status" role="status">Loading image…</span></div><div class="image-dialog-footer"><span class="image-position" aria-live="polite"></span><p class="image-caption"></p><p class="image-help"><span class="image-desktop-help">Zoom + / − · Left-click and drag to pan</span><span class="image-touch-help">Swipe to browse · Pinch to zoom</span></p><div class="image-zoom-controls"><button class="image-zoom-out" aria-label="Zoom out">${glass('−')}</button><output class="image-zoom-value" aria-live="polite">100%</output><button class="image-zoom-in" aria-label="Zoom in">${glass('+')}</button></div></div>`;
   document.body.append(dialog);
-  const viewport=$('.image-viewport',dialog),img=$('img',dialog),status=$('.image-status',dialog),zoomOut=$('.image-zoom-out',dialog),zoomIn=$('.image-zoom-in',dialog);
-  let scale=1,x=0,y=0,returnFocus,gesture,swipeStart,photos=[],photoIndex=0;const pointers=new Map();
+  const viewport=$('.image-viewport',dialog),frame=$('.image-frame',dialog),img=$('img',dialog),status=$('.image-status',dialog),zoomOut=$('.image-zoom-out',dialog),zoomIn=$('.image-zoom-in',dialog);
+  let scale=1,x=0,y=0,returnFocus,gesture,swipeStart,photos=[],photoIndex=0,changingPhoto=false,photoChangeToken=0;const pointers=new Map();
   function paint(){
     x=Math.max(-img.clientWidth*(scale-1)/2,Math.min(img.clientWidth*(scale-1)/2,x));
     y=Math.max(-img.clientHeight*(scale-1)/2,Math.min(img.clientHeight*(scale-1)/2,y));
@@ -180,7 +180,7 @@ function createImageDialog(){
   zoomOut.addEventListener('click',()=>zoom(scale/1.4));zoomIn.addEventListener('click',()=>zoom(scale*1.4));
   $('.image-close',dialog).addEventListener('click',()=>dialog.close());
   dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
-  dialog.addEventListener('close',()=>{pointers.clear();gesture=null;returnFocus?.focus({preventScroll:true});document.dispatchEvent(new Event('portfolio:lightbox'));});
+  dialog.addEventListener('close',()=>{photoChangeToken++;changingPhoto=false;pointers.clear();gesture=null;returnFocus?.focus({preventScroll:true});document.dispatchEvent(new Event('portfolio:lightbox'));});
   dialog.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();changePhoto(e.key==='ArrowRight'?1:-1);}if(e.key==='+'||e.key==='='){e.preventDefault();zoom(scale*1.4);}if(e.key==='-'){e.preventDefault();zoom(scale/1.4);}if(e.key==='0'){e.preventDefault();zoom(1);}});
   function rebase(){
     const p=[...pointers.values()];const rect=viewport.getBoundingClientRect();
@@ -188,6 +188,7 @@ function createImageDialog(){
     gesture=mid?{scale,x,y,mid,distance:p.length>1?Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y):0,cx:rect.x+rect.width/2,cy:rect.y+rect.height/2}:null;
   }
   viewport.addEventListener('pointerdown',e=>{
+    if(changingPhoto)return;
     if(e.button!==0&&e.pointerType==='mouse')return;e.preventDefault();
     if(!pointers.size)swipeStart={x:e.clientX,y:e.clientY,time:e.timeStamp,eligible:e.pointerType==='touch'&&scale<=1.01,multitouch:false};
     else if(swipeStart)swipeStart.multitouch=true;
@@ -209,21 +210,50 @@ function createImageDialog(){
     const direction=type==='pointerup'&&pointers.size===1?imageSwipeDirection(swipeStart,{x:e.clientX,y:e.clientY,time:e.timeStamp},scale):0;
     if(type!=='pointerup'&&swipeStart)swipeStart.eligible=false;
     pointers.delete(e.pointerId);rebase();if(!pointers.size)swipeStart=null;
-    if(direction)changePhoto(direction);
+    if(direction)changePhoto(direction,true);
   });
   viewport.addEventListener('wheel',e=>{e.preventDefault();zoom(scale*Math.exp(-e.deltaY*.002));},{passive:false});
   new ResizeObserver(()=>{if(dialog.open)paint();}).observe(viewport);
   img.addEventListener('load',()=>{status.hidden=true;paint();});
   img.addEventListener('error',()=>{status.hidden=false;status.textContent='The original image could not be loaded.';});
-  function displayPhoto(){
-    const item=photos[photoIndex];scale=1;x=0;y=0;pointers.clear();gesture=null;swipeStart=null;
-    status.hidden=false;status.textContent='Loading image…';
-    img.alt=item.alt||'Original garment render';img.src=safeURL(item.src);
+  function updatePhotoDetails(){
+    const item=photos[photoIndex];
+    img.alt=item.alt||'Original garment render';
     $('.image-caption',dialog).textContent=item.caption||'';
     $('.image-position',dialog).textContent=`${String(photoIndex+1).padStart(2,'0')} / ${String(photos.length).padStart(2,'0')}`;
-    $('.image-previous',dialog).hidden=$('.image-next',dialog).hidden=photos.length<2;paint();
+    $('.image-previous',dialog).hidden=$('.image-next',dialog).hidden=photos.length<2;
   }
-  function changePhoto(direction){if(photos.length<2)return;photoIndex=(photoIndex+direction+photos.length)%photos.length;displayPhoto();}
+  function displayPhoto(){
+    photoChangeToken++;changingPhoto=false;
+    frame.getAnimations().forEach(animation=>animation.cancel());
+    frame.style.removeProperty('transform');frame.style.removeProperty('opacity');
+    const item=photos[photoIndex];scale=1;x=0;y=0;pointers.clear();gesture=null;swipeStart=null;
+    status.hidden=false;status.textContent='Loading image…';
+    updatePhotoDetails();img.src=safeURL(item.src);paint();
+  }
+  function preloadPhoto(src){return new Promise((resolve,reject)=>{const image=new Image();image.decoding='async';image.onload=()=>resolve(image);image.onerror=reject;image.src=src;if(image.complete){if(image.naturalWidth)resolve(image);else reject(new Error('Image could not be loaded'));}});}
+  async function animatePhotoChange(target,direction,token){
+    const src=safeURL(photos[target].src);
+    try{await preloadPhoto(src);}catch{if(token===photoChangeToken&&dialog.open){changingPhoto=false;photoIndex=target;displayPhoto();}return;}
+    if(token!==photoChangeToken||!dialog.open)return;
+    const options={duration:190,easing:'cubic-bezier(.22,1,.36,1)',fill:'both'};
+    try{await frame.animate([{transform:'translateX(0)',opacity:1},{transform:`translateX(${-direction*30}%)`,opacity:.38}],options).finished;}catch{return;}
+    if(token!==photoChangeToken||!dialog.open)return;
+    photoIndex=target;scale=1;x=0;y=0;pointers.clear();gesture=null;swipeStart=null;
+    frame.style.transform=`translateX(${direction*30}%)`;frame.style.opacity='.38';
+    status.hidden=true;updatePhotoDetails();img.src=src;paint();
+    try{if(img.decode)await img.decode();}catch{}
+    if(token!==photoChangeToken||!dialog.open)return;
+    try{await frame.animate([{transform:`translateX(${direction*30}%)`,opacity:.38},{transform:'translateX(0)',opacity:1}],{...options,duration:260}).finished;}catch{return;}
+    if(token!==photoChangeToken)return;
+    frame.style.removeProperty('transform');frame.style.removeProperty('opacity');changingPhoto=false;paint();
+  }
+  function changePhoto(direction,animateSwipe=false){
+    if(photos.length<2||changingPhoto)return;
+    const target=(photoIndex+direction+photos.length)%photos.length;
+    if(!animateSwipe||reducedMotion||typeof frame.animate!=='function') {photoIndex=target;displayPhoto();return;}
+    changingPhoto=true;const token=++photoChangeToken;animatePhotoChange(target,direction,token);
+  }
   $('.image-previous',dialog).addEventListener('click',()=>changePhoto(-1));
   $('.image-next',dialog).addEventListener('click',()=>changePhoto(1));
   dialog.openPhotos=(items,index,opener)=>{
