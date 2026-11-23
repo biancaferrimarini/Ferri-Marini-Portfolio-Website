@@ -2,6 +2,20 @@ import {readFile, readdir, mkdir, writeFile, cp, stat, rm} from 'node:fs/promise
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
+// Count photographs, not CMS blocks. Legacy renders remain supported.
+export function flattenGallery(project) {
+  if(project.gallerySlides===undefined)return (project.renders||[]).map(x=>({...x}));
+  if(!Array.isArray(project.gallerySlides))throw new Error(`Invalid gallery: ${project.title}`);
+  return project.gallerySlides.flatMap((slide,index)=>{
+    if(slide.layout==='single')return [{...slide.image}];
+    if(slide.layout==='pair'){
+      if(!slide.first?.src||!slide.second?.src)throw new Error(`Complete both vertical images: ${project.title}, slide ${index+1}`);
+      return [slide.first,slide.second].map(image=>({...image,desktopPair:index}));
+    }
+    throw new Error(`Choose single or pair: ${project.title}`);
+  });
+}
+
 export async function buildPortfolio(root) {
   const records=async folder=>{
     const files=(await readdir(path.join(root,'content',folder))).filter(file=>file.endsWith('.json')).sort();
@@ -24,7 +38,7 @@ export async function buildPortfolio(root) {
   const ids=new Set(collections.map(row=>row.id));
   for(const project of projects){
     if(!ids.has(project.collection))throw new Error(`Choose an existing collection for: ${project.title}`);
-    if(project.renders!=null&&(!Array.isArray(project.renders)||project.renders.length>5))throw new Error(`Use up to five renders: ${project.title}`);
+    if(flattenGallery(project).length>5)throw new Error(`Use up to five renders: ${project.title}`);
   }
   const order=(a,b)=>(Number(a.order)||0)-(Number(b.order)||0)||a.id.localeCompare(b.id);
   const normalize=src=>typeof src==='string'?src.replace(/^\/(assets\/)/,'$1'):'';
@@ -42,7 +56,8 @@ export async function buildPortfolio(root) {
       const entry=structuredClone(project);
       const assets=[];
       if(entry.construction&&!Array.isArray(entry.construction))entry.construction=[['fit','Fit'],['collar','Collar / Neckline'],['pockets','Pockets'],['seams','Seams & topstitching'],['fabric','Fabric'],['volume','Volume']].map(([key,label])=>({label,text:entry.construction[key]||'To come'}));
-      entry.renders=(entry.renders||[]).map(render=>({...render,src:normalize(render.src)}));
+      entry.renders=flattenGallery(entry).map(render=>({...render,src:normalize(render.src)}));
+      delete entry.gallerySlides;
       entry.renders.forEach(render=>assets.push(render.src));
       entry.reference={...entry.reference,src:normalize(entry.reference?.src)};assets.push(entry.reference.src);
       if(entry.model?.externalURL&&!/^https:\/\//.test(entry.model.externalURL))throw new Error(`Use an HTTPS model URL: ${entry.title}`);

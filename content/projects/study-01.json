@@ -18,29 +18,6 @@
     "Fabric simulation",
     "Rendering"
   ],
-  "renders": [
-    {
-      "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046579/CK_JEANS_2_ufn0ia.png",
-      "alt": "Front render of a dark denim Calvin Klein-inspired trucker shirt",
-      "caption": "Front view"
-    },
-    {
-      "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046580/CK_JEANS_3_tfaurz.png",
-      "alt": "Close-up render of the denim shirt construction",
-      "caption": "Construction detail"
-    },
-    {
-      "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046578/CK_JEANS_4_vqke9x.png",
-      "alt": "Three-quarter render of a dark denim trucker shirt",
-      "caption": "Three-quarter view"
-    },
-    {
-      "caption": "Detail 01 / To come"
-    },
-    {
-      "caption": "Detail 02 / To come"
-    }
-  ],
   "construction": {
     "fit": "Close-fitting, shaped through the waist.",
     "collar": "Classic shirt collar.",
@@ -61,5 +38,43 @@
     "cameraOrbit": "15deg 75deg 105%",
     "demo": true,
     "message": "DEMO / 3D JEANS SHIRT"
-  }
+  },
+  "gallerySlides": [
+    {
+      "layout": "single",
+      "image": {
+        "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046579/CK_JEANS_2_ufn0ia.png",
+        "alt": "Front render of a dark denim Calvin Klein-inspired trucker shirt",
+        "caption": "Front view"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046580/CK_JEANS_3_tfaurz.png",
+        "alt": "Close-up render of the denim shirt construction",
+        "caption": "Construction detail"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046578/CK_JEANS_4_vqke9x.png",
+        "alt": "Three-quarter render of a dark denim trucker shirt",
+        "caption": "Three-quarter view"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "caption": "Detail 01 / To come"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "caption": "Detail 02 / To come"
+      }
+    }
+  ]
 }

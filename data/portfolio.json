@@ -6,11 +6,24 @@
       "projects": [
         {
           "id": "2d2f721e-c013-47bc-9acb-882ccbde6572",
+          "anchor": "study-01",
           "title": "Denim, Reframed",
-          "concept": "An everyday icon, recut in digital form.",
+          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+          "status": "published",
+          "order": 10,
           "year": "—",
           "category": "Remake — Classic Calvin Klein Jeans Trucker Shirt",
+          "concept": "An everyday icon, recut in digital form.",
           "description": "Denim follows the body in a close-fitting silhouette. A classic shirt collar and two chest pockets anchor the familiar construction, while precise topstitching traces each seam. Recreated through digital patternmaking and fabric simulation, the shirt retains the structure of its physical reference with a deliberately restrained volume.",
+          "software": [
+            "CLO3D",
+            "Blender"
+          ],
+          "techniques": [
+            "Digital patternmaking",
+            "Fabric simulation",
+            "Rendering"
+          ],
           "construction": [
             {
               "label": "Fit",
@@ -37,74 +50,58 @@
               "text": "Controlled ease, held close to the body."
             }
           ],
-          "software": [
-            "CLO3D",
-            "Blender"
-          ],
-          "techniques": [
-            "Digital patternmaking",
-            "Fabric simulation",
-            "Rendering"
-          ],
-          "layout": "wide",
+          "reference": {
+            "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046589/study-01-reference_egjijr.jpg",
+            "alt": "Model wearing a dark Calvin Klein denim shirt",
+            "caption": "Physical reference — Calvin Klein denim shirt"
+          },
+          "model": {
+            "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795258264/ck_shirt_gltf_xqngkr.glb",
+            "alt": "Interactive 3D denim trucker shirt",
+            "preview": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046611/CROPPED_SHIRT_WOMAN_MOIRAI_id525b.png",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "message": "DEMO / 3D JEANS SHIRT",
+            "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795258264/ck_shirt_gltf_xqngkr.glb",
+            "poster": ""
+          },
           "renders": [
             {
               "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046579/CK_JEANS_2_ufn0ia.png",
               "alt": "Front render of a dark denim Calvin Klein-inspired trucker shirt",
-              "label": "RENDER 01",
               "caption": "Front view"
             },
             {
               "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046580/CK_JEANS_3_tfaurz.png",
               "alt": "Close-up render of the denim shirt construction",
-              "label": "RENDER 02",
               "caption": "Construction detail"
             },
             {
               "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046578/CK_JEANS_4_vqke9x.png",
               "alt": "Three-quarter render of a dark denim trucker shirt",
-              "label": "RENDER 03",
               "caption": "Three-quarter view"
             },
             {
-              "src": "",
-              "alt": "",
-              "label": "DETAIL 01",
-              "caption": "Detail 01 / To come"
+              "caption": "Detail 01 / To come",
+              "src": ""
             },
             {
-              "src": "",
-              "alt": "",
-              "label": "DETAIL 02",
-              "caption": "Detail 02 / To come"
+              "caption": "Detail 02 / To come",
+              "src": ""
             }
-          ],
-          "reference": {
-            "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046589/study-01-reference_egjijr.jpg",
-            "alt": "Model wearing a dark Calvin Klein denim shirt",
-            "caption": "Physical reference — Calvin Klein denim shirt",
-            "credit": ""
-          },
-          "model": {
-            "src": "assets/models/study-01-jeans-shirt.glb",
-            "preview": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046611/CROPPED_SHIRT_WOMAN_MOIRAI_id525b.png",
-            "poster": "",
-            "alt": "Interactive 3D denim trucker shirt",
-            "cameraOrbit": "15deg 75deg 105%",
-            "demo": true,
-            "message": "DEMO / 3D JEANS SHIRT"
-          },
-          "anchor": "study-01",
-          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
-          "order": 10,
-          "status": "published"
+          ]
         },
         {
           "id": "e9f0a73c-4855-49da-b6cd-67ef7f075f31",
-          "title": "Study 02",
-          "year": "—",
-          "category": "Project placeholder",
-          "description": "Project description to come.",
+          "anchor": "study-02",
+          "title": "Pleats in Motion",
+          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+          "status": "published",
+          "order": 20,
+          "year": "2026",
+          "category": "Remake — Neiman Marcus Pleated Pants",
+          "concept": "Where structured tailoring meets fluid movement.",
+          "description": "A digital reconstruction of Neiman Marcus pleated trousers, exploring the interplay between tailored structure and soft draping. High-waisted proportions, sculptural front pleats, and a tapered silhouette are recreated in CLO 3D, with a pastel blue silk-like crepe material that emphasizes subtle texture, luminosity, and natural fabric movement.",
           "software": [
             "CLO3D"
           ],
@@ -113,69 +110,70 @@
             "Texturing",
             "Rendering"
           ],
-          "layout": "wide",
-          "renders": [
-            {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 01",
-              "caption": "Front view"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 02",
-              "caption": "Back view"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "DETAIL",
-              "caption": "Construction detail"
-            }
-          ],
-          "reference": {
-            "src": "",
-            "alt": "",
-            "caption": "Physical reference",
-            "credit": ""
-          },
-          "model": {
-            "src": "assets/models/demo-tshirt.glb",
-            "poster": "",
-            "alt": "Demonstration T-shirt, interactive 3D preview",
-            "cameraOrbit": "15deg 75deg 105%",
-            "demo": true,
-            "preview": ""
-          },
-          "anchor": "study-02",
-          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
-          "order": 20,
-          "status": "published",
           "construction": [
             {
               "label": "Fit",
-              "text": "To come"
+              "text": "High-waisted tailored fit with a defined waistband, generous volume through the hips, and a softly tapered leg. "
             },
             {
               "label": "Collar / Neckline",
-              "text": "To come"
+              "text": "Not applicable — structured high-rise waistband."
             },
             {
               "label": "Pockets",
-              "text": "To come"
+              "text": "Slanted side pockets integrated into the upper hip area, following the natural flow of the pleats."
             },
             {
               "label": "Seams & topstitching",
-              "text": "To come"
+              "text": "Clean, discreet seam construction with minimal visible topstitching. Subtle seam definition preserves the smooth, refined appearance of the garment."
             },
             {
               "label": "Fabric",
-              "text": "To come"
+              "text": "Pastel blue silk-like chambray crepe with a fine woven texture, soft luminosity, and fluid drape. The simulated fabric balances gentle structure at the waist with natural folds and movement along the legs."
             },
             {
               "label": "Volume",
-              "text": "To come"
+              "text": "Deep front pleats create controlled volume through the upper leg, transitioning into an elongated, tapered silhouette. A clean waistband reinforces the tailored construction."
+            }
+          ],
+          "reference": {
+            "src": "assets/images/mwqbhtgg-q10itdah.jpg",
+            "alt": "Model wearing a Marcus Neiman pleated pants",
+            "caption": "Neiman Marcus pleated trousers — original design used as a visual reference for digital pattern reconstruction, silhouette study, and fabric interpretation."
+          },
+          "model": {
+            "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795260454/panta_piega_glb_dups0o.glb",
+            "alt": "Demonstration Pleated Pants interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795260454/panta_piega_glb_dups0o.glb",
+            "poster": "",
+            "preview": ""
+          },
+          "renders": [
+            {
+              "src": "assets/images/mwqbegqw-jwj4zkx9.png",
+              "alt": "front render pleated pants",
+              "caption": "Front view",
+              "desktopPair": 0
+            },
+            {
+              "src": "assets/images/mwqbeu8w-m89jxiai.png",
+              "alt": "side render pleated pants",
+              "caption": "Side view",
+              "desktopPair": 0
+            },
+            {
+              "src": "assets/images/mwqbfl0s-8w3nfecd.png",
+              "alt": "close up front render pleated pants",
+              "caption": "Construction detail",
+              "desktopPair": 1
+            },
+            {
+              "src": "assets/images/mwqbuial-1bwteayo.png",
+              "alt": "closeup render pleated pants",
+              "caption": "closeup render",
+              "desktopPair": 1
             }
           ]
         },
@@ -193,26 +191,6 @@
             "Fabric simulation"
           ],
           "layout": "wide",
-          "renders": [
-            {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 01",
-              "caption": "Front view"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 02",
-              "caption": "Back view"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "DETAIL",
-              "caption": "Construction detail"
-            }
-          ],
           "reference": {
             "src": "",
             "alt": "",
@@ -256,22 +234,7 @@
               "label": "Volume",
               "text": "To come"
             }
-          ]
-        },
-        {
-          "id": "b428d4fe-c2f5-437f-8278-2fb5748f1649",
-          "title": "Study 04",
-          "year": "—",
-          "category": "Project placeholder",
-          "description": "Project description to come.",
-          "software": [
-            "CLO3D"
           ],
-          "techniques": [
-            "Digital patternmaking",
-            "Fabric simulation"
-          ],
-          "layout": "wide",
           "renders": [
             {
               "src": "",
@@ -291,7 +254,22 @@
               "label": "DETAIL",
               "caption": "Construction detail"
             }
+          ]
+        },
+        {
+          "id": "b428d4fe-c2f5-437f-8278-2fb5748f1649",
+          "title": "Study 04",
+          "year": "—",
+          "category": "Project placeholder",
+          "description": "Project description to come.",
+          "software": [
+            "CLO3D"
           ],
+          "techniques": [
+            "Digital patternmaking",
+            "Fabric simulation"
+          ],
+          "layout": "wide",
           "reference": {
             "src": "",
             "alt": "",
@@ -335,22 +313,7 @@
               "label": "Volume",
               "text": "To come"
             }
-          ]
-        },
-        {
-          "id": "3683c664-23ee-41dc-b5a7-30867debfd8d",
-          "title": "Study 05",
-          "year": "—",
-          "category": "Project placeholder",
-          "description": "Project description to come.",
-          "software": [
-            "CLO3D"
           ],
-          "techniques": [
-            "Digital patternmaking",
-            "Fabric simulation"
-          ],
-          "layout": "wide",
           "renders": [
             {
               "src": "",
@@ -370,7 +333,22 @@
               "label": "DETAIL",
               "caption": "Construction detail"
             }
+          ]
+        },
+        {
+          "id": "3683c664-23ee-41dc-b5a7-30867debfd8d",
+          "title": "Study 05",
+          "year": "—",
+          "category": "Project placeholder",
+          "description": "Project description to come.",
+          "software": [
+            "CLO3D"
           ],
+          "techniques": [
+            "Digital patternmaking",
+            "Fabric simulation"
+          ],
+          "layout": "wide",
           "reference": {
             "src": "",
             "alt": "",
@@ -414,6 +392,26 @@
               "label": "Volume",
               "text": "To come"
             }
+          ],
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL",
+              "caption": "Construction detail"
+            }
           ]
         }
       ]
@@ -432,38 +430,6 @@
           "software": [],
           "techniques": [],
           "layout": "wide",
-          "renders": [
-            {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 01",
-              "caption": "Front view / To come"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 02",
-              "caption": "Back view / To come"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 03",
-              "caption": "Side view / To come"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "DETAIL 01",
-              "caption": "Detail 01 / To come"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "DETAIL 02",
-              "caption": "Detail 02 / To come"
-            }
-          ],
           "reference": {
             "src": "",
             "alt": "",
@@ -507,18 +473,7 @@
               "label": "Volume",
               "text": "To come"
             }
-          ]
-        },
-        {
-          "id": "34438717-7182-4519-bff2-6c4f054c0df0",
-          "title": "Look 02",
-          "concept": "",
-          "year": "",
-          "category": "Terra360 / Project to come",
-          "description": "Project description to come.",
-          "software": [],
-          "techniques": [],
-          "layout": "wide",
+          ],
           "renders": [
             {
               "src": "",
@@ -550,7 +505,18 @@
               "label": "DETAIL 02",
               "caption": "Detail 02 / To come"
             }
-          ],
+          ]
+        },
+        {
+          "id": "34438717-7182-4519-bff2-6c4f054c0df0",
+          "title": "Look 02",
+          "concept": "",
+          "year": "",
+          "category": "Terra360 / Project to come",
+          "description": "Project description to come.",
+          "software": [],
+          "techniques": [],
+          "layout": "wide",
           "reference": {
             "src": "",
             "alt": "",
@@ -594,18 +560,7 @@
               "label": "Volume",
               "text": "To come"
             }
-          ]
-        },
-        {
-          "id": "f6fd9365-f7b9-417c-a339-f9dad32fd5df",
-          "title": "Look 03",
-          "concept": "",
-          "year": "",
-          "category": "Terra360 / Project to come",
-          "description": "Project description to come.",
-          "software": [],
-          "techniques": [],
-          "layout": "wide",
+          ],
           "renders": [
             {
               "src": "",
@@ -637,7 +592,18 @@
               "label": "DETAIL 02",
               "caption": "Detail 02 / To come"
             }
-          ],
+          ]
+        },
+        {
+          "id": "f6fd9365-f7b9-417c-a339-f9dad32fd5df",
+          "title": "Look 03",
+          "concept": "",
+          "year": "",
+          "category": "Terra360 / Project to come",
+          "description": "Project description to come.",
+          "software": [],
+          "techniques": [],
+          "layout": "wide",
           "reference": {
             "src": "",
             "alt": "",
@@ -681,18 +647,7 @@
               "label": "Volume",
               "text": "To come"
             }
-          ]
-        },
-        {
-          "id": "8dc2cf74-a6e8-415c-8233-caef0ef84d9e",
-          "title": "Look 04",
-          "concept": "",
-          "year": "",
-          "category": "Terra360 / Project to come",
-          "description": "Project description to come.",
-          "software": [],
-          "techniques": [],
-          "layout": "wide",
+          ],
           "renders": [
             {
               "src": "",
@@ -724,7 +679,18 @@
               "label": "DETAIL 02",
               "caption": "Detail 02 / To come"
             }
-          ],
+          ]
+        },
+        {
+          "id": "8dc2cf74-a6e8-415c-8233-caef0ef84d9e",
+          "title": "Look 04",
+          "concept": "",
+          "year": "",
+          "category": "Terra360 / Project to come",
+          "description": "Project description to come.",
+          "software": [],
+          "techniques": [],
+          "layout": "wide",
           "reference": {
             "src": "",
             "alt": "",
@@ -768,18 +734,7 @@
               "label": "Volume",
               "text": "To come"
             }
-          ]
-        },
-        {
-          "id": "ee4e04bf-1f4e-476a-8f2a-d804a795be10",
-          "title": "Look 05",
-          "concept": "",
-          "year": "",
-          "category": "Terra360 / Project to come",
-          "description": "Project description to come.",
-          "software": [],
-          "techniques": [],
-          "layout": "wide",
+          ],
           "renders": [
             {
               "src": "",
@@ -811,7 +766,18 @@
               "label": "DETAIL 02",
               "caption": "Detail 02 / To come"
             }
-          ],
+          ]
+        },
+        {
+          "id": "ee4e04bf-1f4e-476a-8f2a-d804a795be10",
+          "title": "Look 05",
+          "concept": "",
+          "year": "",
+          "category": "Terra360 / Project to come",
+          "description": "Project description to come.",
+          "software": [],
+          "techniques": [],
+          "layout": "wide",
           "reference": {
             "src": "",
             "alt": "",
@@ -854,6 +820,38 @@
             {
               "label": "Volume",
               "text": "To come"
+            }
+          ],
+          "renders": [
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 01",
+              "caption": "Front view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 02",
+              "caption": "Back view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "RENDER 03",
+              "caption": "Side view / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 01",
+              "caption": "Detail 01 / To come"
+            },
+            {
+              "src": "",
+              "alt": "",
+              "label": "DETAIL 02",
+              "caption": "Detail 02 / To come"
             }
           ]
         }
