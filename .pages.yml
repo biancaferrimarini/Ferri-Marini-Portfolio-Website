@@ -82,11 +82,11 @@ content:
         list: true
       - name: gallerySlides
         label: Galleria render — singola o coppia verticale
-        description: Massimo 5 immagini totali. Singola = 1 immagine; coppia = 2. Trascina le voci per cambiare ordine. Sul telefono le coppie vengono separate e ogni foto è mostrata in 3:4 con ritaglio centrale. Il limite totale viene controllato prima della pubblicazione.
+        description: Fino a 6 immagini totali, organizzate in un massimo di 6 voci CMS. Singola = 1 immagine; coppia = 2. Trascina le voci per cambiare ordine. Sul telefono le coppie vengono separate e ogni foto è mostrata in 3:4 con ritaglio centrale. Il limite totale viene controllato prima della pubblicazione.
         type: block
         blockKey: layout
         list:
-          max: 5
+          max: 6
           collapsible: true
         blocks:
           - name: single

@@ -38,7 +38,7 @@ export async function buildPortfolio(root) {
   const ids=new Set(collections.map(row=>row.id));
   for(const project of projects){
     if(!ids.has(project.collection))throw new Error(`Choose an existing collection for: ${project.title}`);
-    if(flattenGallery(project).length>5)throw new Error(`Use up to five renders: ${project.title}`);
+    if(flattenGallery(project).length>6)throw new Error(`Use up to six renders: ${project.title}`);
   }
   const order=(a,b)=>(Number(a.order)||0)-(Number(b.order)||0)||a.id.localeCompare(b.id);
   const normalize=src=>typeof src==='string'?src.replace(/^\/(assets\/)/,'$1'):'';
