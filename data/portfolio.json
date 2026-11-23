@@ -67,27 +67,30 @@
           },
           "renders": [
             {
-              "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046579/CK_JEANS_2_ufn0ia.png",
-              "alt": "Front render of a dark denim Calvin Klein-inspired trucker shirt",
-              "caption": "Front view"
+              "src": "assets/images/mwtnmjcw-seduodbr.png",
+              "alt": "CK shirt 1",
+              "desktopPair": 0
             },
             {
-              "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046580/CK_JEANS_3_tfaurz.png",
-              "alt": "Close-up render of the denim shirt construction",
-              "caption": "Construction detail"
+              "src": "assets/images/mwtnmxt2-wuytziun.png",
+              "alt": "CK shirt 2",
+              "desktopPair": 0
             },
             {
-              "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046578/CK_JEANS_4_vqke9x.png",
-              "alt": "Three-quarter render of a dark denim trucker shirt",
-              "caption": "Three-quarter view"
+              "src": "assets/images/mwtnofpo-9ibpdsuz.png",
+              "alt": "CK shirt  3"
             },
             {
-              "caption": "Detail 01 / To come",
-              "src": ""
+              "src": "assets/images/mwtpabhi-d5lroex2.png",
+              "alt": "CK shirt 4"
             },
             {
-              "caption": "Detail 02 / To come",
-              "src": ""
+              "src": "assets/images/mwtpakjt-tgp74vro.png",
+              "alt": "CK shirt 5"
+            },
+            {
+              "src": "assets/images/mwtpaskp-gw5h3uae.png",
+              "alt": "CK shirt 6"
             }
           ]
         },
@@ -179,80 +182,89 @@
         },
         {
           "id": "e166f2aa-b94b-4354-85b1-882de405769c",
-          "title": "Study 03",
-          "year": "—",
-          "category": "Project placeholder",
-          "description": "Project description to come.",
+          "anchor": "study-03",
+          "title": "Pleats in Play",
+          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+          "status": "published",
+          "order": 30,
+          "year": "2026",
+          "category": "Remake — Tommy Jeans Pleated Tennis Skirt",
+          "concept": "A court classic, reimagined in digital form.",
+          "description": "A digital recreation of a Tommy Jeans tennis-inspired pleated skirt, combining sporty details with precise garment construction. Developed in CLO 3D, the design features a branded elastic waistband, a smooth fitted yoke, and crisp, evenly spaced pleats. A white cotton-poplin-inspired fabric captures the balance between lightweight structure and natural movement.",
           "software": [
             "CLO3D"
           ],
           "techniques": [
             "Digital patternmaking",
-            "Fabric simulation"
+            "Fabric simulation",
+            "Graphic Logo Design",
+            "Elastic Waistband Design",
+            "Rendering in Clo3D"
           ],
-          "layout": "wide",
-          "reference": {
-            "src": "",
-            "alt": "",
-            "caption": "Physical reference",
-            "credit": ""
-          },
-          "model": {
-            "src": "assets/models/demo-tshirt.glb",
-            "poster": "",
-            "alt": "Demonstration T-shirt, interactive 3D preview",
-            "cameraOrbit": "15deg 75deg 105%",
-            "demo": true,
-            "preview": ""
-          },
-          "anchor": "study-03",
-          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
-          "order": 30,
-          "status": "published",
           "construction": [
             {
               "label": "Fit",
-              "text": "To come"
+              "text": "Fitted at the waist and upper hips, transitioning into a short, flared silhouette."
             },
             {
               "label": "Collar / Neckline",
-              "text": "To come"
+              "text": "Not applicable — wide branded elastic waistband with navy stripe detailing."
             },
             {
               "label": "Pockets",
-              "text": "To come"
+              "text": "No visible pockets, maintaining a clean and streamlined silhouette."
             },
             {
               "label": "Seams & topstitching",
-              "text": "To come"
+              "text": "Clean yoke-to-pleat seam with subtle stitching and a neatly finished hem."
             },
             {
               "label": "Fabric",
-              "text": "To come"
+              "text": "White cotton-poplin-inspired fabric, potentially blended with polyester, with a fine weave and crisp hand."
             },
             {
               "label": "Volume",
-              "text": "To come"
+              "text": "Evenly spaced, structured pleats create rhythmic volume and a softly flared shape."
             }
           ],
+          "reference": {
+            "src": "assets/images/mwtpwni1-b69s43zj.jpg",
+            "alt": "Reference Tommy Jeans Pleated skirt",
+            "caption": "Physical reference"
+          },
+          "model": {
+            "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795466067/glb_skirt_tommy_zlpnum.glb",
+            "alt": "Demonstration Pleated Skirt interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795466067/glb_skirt_tommy_zlpnum.glb",
+            "poster": "",
+            "preview": ""
+          },
           "renders": [
             {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 01",
-              "caption": "Front view"
+              "src": "assets/images/mwtpz6fk-98tjebvb.png",
+              "alt": "Tommy Jeans Pleated Skirt 1",
+              "desktopPair": 0
             },
             {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 02",
-              "caption": "Back view"
+              "src": "assets/images/mwtpze6r-888nq2bn.png",
+              "alt": "Tommy Jeans Pleated Skirt 2",
+              "desktopPair": 0
             },
             {
-              "src": "",
-              "alt": "",
-              "label": "DETAIL",
-              "caption": "Construction detail"
+              "src": "assets/images/mwtq06ks-ezk3q1kz.png",
+              "alt": "Tommy Jeans Pleated Skirt 3",
+              "desktopPair": 1
+            },
+            {
+              "src": "assets/images/mwtq0ep1-obxuwvjf.png",
+              "alt": "Tommy Jeans Pleated Skirt 4",
+              "desktopPair": 1
+            },
+            {
+              "src": "assets/images/mwtq0wyf-38ai8fc2.png",
+              "alt": "Tommy Jeans Pleated Skirt 5"
             }
           ]
         },
