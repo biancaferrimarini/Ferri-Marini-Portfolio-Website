@@ -80,24 +80,70 @@ content:
         label: Tecniche
         type: string
         list: true
-      - name: renders
-        label: Render (massimo cinque)
-        type: object
+      - name: gallerySlides
+        label: Galleria render — singola o coppia verticale
+        description: Massimo 5 immagini totali. Singola = 1 immagine; coppia = 2. Trascina le voci per cambiare ordine. Sul telefono le coppie vengono separate e ogni foto è mostrata in 3:4 con ritaglio centrale. Il limite totale viene controllato prima della pubblicazione.
+        type: block
+        blockKey: layout
         list:
           max: 5
           collapsible: true
-        fields:
-          - name: src
-            label: Immagine
-            type: image
-            options:
-              media: images
-          - name: alt
-            label: Descrizione accessibile dell'immagine
-            type: string
-          - name: caption
-            label: Didascalia
-            type: string
+        blocks:
+          - name: single
+            label: Singola orizzontale (1 immagine)
+            fields:
+              - name: image
+                label: Immagine
+                type: object
+                fields:
+                  - name: src
+                    label: Render 4:3
+                    type: image
+                    options:
+                      media: images
+                  - name: alt
+                    label: Descrizione accessibile
+                    type: string
+                  - name: caption
+                    label: Didascalia
+                    type: string
+          - name: pair
+            label: Coppia verticale (2 immagini)
+            fields:
+              - name: first
+                label: Prima immagine
+                type: object
+                required: true
+                fields:
+                  - name: src
+                    label: Render verticale 3:4
+                    type: image
+                    required: true
+                    options:
+                      media: images
+                  - name: alt
+                    label: Descrizione accessibile
+                    type: string
+                  - name: caption
+                    label: Didascalia
+                    type: string
+              - name: second
+                label: Seconda immagine
+                type: object
+                required: true
+                fields:
+                  - name: src
+                    label: Render verticale 3:4
+                    type: image
+                    required: true
+                    options:
+                      media: images
+                  - name: alt
+                    label: Descrizione accessibile
+                    type: string
+                  - name: caption
+                    label: Didascalia
+                    type: string
       - name: construction
         label: Construction notes
         type: object

@@ -8,38 +8,6 @@
   "software": [],
   "techniques": [],
   "layout": "wide",
-  "renders": [
-    {
-      "src": "",
-      "alt": "",
-      "label": "RENDER 01",
-      "caption": "Front view / To come"
-    },
-    {
-      "src": "",
-      "alt": "",
-      "label": "RENDER 02",
-      "caption": "Back view / To come"
-    },
-    {
-      "src": "",
-      "alt": "",
-      "label": "RENDER 03",
-      "caption": "Side view / To come"
-    },
-    {
-      "src": "",
-      "alt": "",
-      "label": "DETAIL 01",
-      "caption": "Detail 01 / To come"
-    },
-    {
-      "src": "",
-      "alt": "",
-      "label": "DETAIL 02",
-      "caption": "Detail 02 / To come"
-    }
-  ],
   "reference": {
     "src": "",
     "alt": "",
@@ -64,5 +32,52 @@
     "seams": "",
     "fabric": "",
     "volume": ""
-  }
+  },
+  "gallerySlides": [
+    {
+      "layout": "single",
+      "image": {
+        "src": "",
+        "alt": "",
+        "label": "RENDER 01",
+        "caption": "Front view / To come"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "",
+        "alt": "",
+        "label": "RENDER 02",
+        "caption": "Back view / To come"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "",
+        "alt": "",
+        "label": "RENDER 03",
+        "caption": "Side view / To come"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "",
+        "alt": "",
+        "label": "DETAIL 01",
+        "caption": "Detail 01 / To come"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "",
+        "alt": "",
+        "label": "DETAIL 02",
+        "caption": "Detail 02 / To come"
+      }
+    }
+  ]
 }

@@ -1,0 +1,33 @@
+name: Validate staging portfolio
+on:
+  push:
+    branches: [staging/editorial-gallery]
+    paths-ignore: [data/portfolio.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: staging-editorial-gallery
+  cancel-in-progress: true
+jobs:
+  validate:
+    if: github.ref == 'refs/heads/staging/editorial-gallery'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: staging/editorial-gallery
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Validate and generate preview content
+        run: node scripts/build-portfolio.mjs --data-only
+      - name: Save preview content on staging branch only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/portfolio.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh staging portfolio data'
+            git push origin HEAD:staging/editorial-gallery
+          fi

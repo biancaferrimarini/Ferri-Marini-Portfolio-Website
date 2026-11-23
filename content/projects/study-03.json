@@ -12,26 +12,6 @@
     "Fabric simulation"
   ],
   "layout": "wide",
-  "renders": [
-    {
-      "src": "",
-      "alt": "",
-      "label": "RENDER 01",
-      "caption": "Front view"
-    },
-    {
-      "src": "",
-      "alt": "",
-      "label": "RENDER 02",
-      "caption": "Back view"
-    },
-    {
-      "src": "",
-      "alt": "",
-      "label": "DETAIL",
-      "caption": "Construction detail"
-    }
-  ],
   "reference": {
     "src": "",
     "alt": "",
@@ -56,5 +36,34 @@
     "seams": "",
     "fabric": "",
     "volume": ""
-  }
+  },
+  "gallerySlides": [
+    {
+      "layout": "single",
+      "image": {
+        "src": "",
+        "alt": "",
+        "label": "RENDER 01",
+        "caption": "Front view"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "",
+        "alt": "",
+        "label": "RENDER 02",
+        "caption": "Back view"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "",
+        "alt": "",
+        "label": "DETAIL",
+        "caption": "Construction detail"
+      }
+    }
+  ]
 }
