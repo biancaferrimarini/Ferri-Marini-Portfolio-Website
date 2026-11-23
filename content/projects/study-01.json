@@ -18,6 +18,47 @@
     "Fabric simulation",
     "Rendering"
   ],
+  "gallerySlides": [
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwtnmjcw-seduodbr.png",
+        "alt": "CK shirt 1"
+      },
+      "second": {
+        "src": "/assets/images/mwtnmxt2-wuytziun.png",
+        "alt": "CK shirt 2"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "/assets/images/mwtnofpo-9ibpdsuz.png",
+        "alt": "CK shirt  3"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "/assets/images/mwtpabhi-d5lroex2.png",
+        "alt": "CK shirt 4"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "/assets/images/mwtpakjt-tgp74vro.png",
+        "alt": "CK shirt 5"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "/assets/images/mwtpaskp-gw5h3uae.png",
+        "alt": "CK shirt 6"
+      }
+    }
+  ],
   "construction": {
     "fit": "Close-fitting, shaped through the waist.",
     "collar": "Classic shirt collar.",
@@ -38,43 +79,5 @@
     "cameraOrbit": "15deg 75deg 105%",
     "demo": true,
     "message": "DEMO / 3D JEANS SHIRT"
-  },
-  "gallerySlides": [
-    {
-      "layout": "single",
-      "image": {
-        "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046579/CK_JEANS_2_ufn0ia.png",
-        "alt": "Front render of a dark denim Calvin Klein-inspired trucker shirt",
-        "caption": "Front view"
-      }
-    },
-    {
-      "layout": "single",
-      "image": {
-        "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046580/CK_JEANS_3_tfaurz.png",
-        "alt": "Close-up render of the denim shirt construction",
-        "caption": "Construction detail"
-      }
-    },
-    {
-      "layout": "single",
-      "image": {
-        "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1791046578/CK_JEANS_4_vqke9x.png",
-        "alt": "Three-quarter render of a dark denim trucker shirt",
-        "caption": "Three-quarter view"
-      }
-    },
-    {
-      "layout": "single",
-      "image": {
-        "caption": "Detail 01 / To come"
-      }
-    },
-    {
-      "layout": "single",
-      "image": {
-        "caption": "Detail 02 / To come"
-      }
-    }
-  ]
+  }
 }
