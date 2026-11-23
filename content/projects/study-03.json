@@ -1,69 +1,72 @@
 {
   "id": "e166f2aa-b94b-4354-85b1-882de405769c",
-  "title": "Study 03",
-  "year": "—",
-  "category": "Project placeholder",
-  "description": "Project description to come.",
+  "anchor": "study-03",
+  "title": "Pleats in Play",
+  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+  "status": "published",
+  "order": 30,
+  "year": "2026",
+  "category": "Remake — Tommy Jeans Pleated Tennis Skirt",
+  "concept": "A court classic, reimagined in digital form.",
+  "description": "A digital recreation of a Tommy Jeans tennis-inspired pleated skirt, combining sporty details with precise garment construction. Developed in CLO 3D, the design features a branded elastic waistband, a smooth fitted yoke, and crisp, evenly spaced pleats. A white cotton-poplin-inspired fabric captures the balance between lightweight structure and natural movement.",
   "software": [
     "CLO3D"
   ],
   "techniques": [
     "Digital patternmaking",
-    "Fabric simulation"
+    "Fabric simulation",
+    "Graphic Logo Design",
+    "Elastic Waistband Design",
+    "Rendering in Clo3D"
   ],
-  "layout": "wide",
-  "reference": {
-    "src": "",
-    "alt": "",
-    "caption": "Physical reference",
-    "credit": ""
-  },
-  "model": {
-    "src": "assets/models/demo-tshirt.glb",
-    "poster": "",
-    "alt": "Demonstration T-shirt, interactive 3D preview",
-    "cameraOrbit": "15deg 75deg 105%",
-    "demo": true
-  },
-  "anchor": "study-03",
-  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
-  "order": 30,
-  "status": "published",
-  "construction": {
-    "fit": "",
-    "collar": "",
-    "pockets": "",
-    "seams": "",
-    "fabric": "",
-    "volume": ""
-  },
   "gallerySlides": [
     {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 01",
-        "caption": "Front view"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwtpz6fk-98tjebvb.png",
+        "alt": "Tommy Jeans Pleated Skirt 1"
+      },
+      "second": {
+        "src": "/assets/images/mwtpze6r-888nq2bn.png",
+        "alt": "Tommy Jeans Pleated Skirt 2"
+      }
+    },
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwtq06ks-ezk3q1kz.png",
+        "alt": "Tommy Jeans Pleated Skirt 3"
+      },
+      "second": {
+        "src": "/assets/images/mwtq0ep1-obxuwvjf.png",
+        "alt": "Tommy Jeans Pleated Skirt 4"
       }
     },
     {
       "layout": "single",
       "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 02",
-        "caption": "Back view"
-      }
-    },
-    {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "DETAIL",
-        "caption": "Construction detail"
+        "src": "/assets/images/mwtq0wyf-38ai8fc2.png",
+        "alt": "Tommy Jeans Pleated Skirt 5"
       }
     }
-  ]
+  ],
+  "construction": {
+    "fit": "Fitted at the waist and upper hips, transitioning into a short, flared silhouette.",
+    "collar": "Not applicable — wide branded elastic waistband with navy stripe detailing.",
+    "pockets": "No visible pockets, maintaining a clean and streamlined silhouette.",
+    "seams": "Clean yoke-to-pleat seam with subtle stitching and a neatly finished hem.",
+    "fabric": "White cotton-poplin-inspired fabric, potentially blended with polyester, with a fine weave and crisp hand.",
+    "volume": "Evenly spaced, structured pleats create rhythmic volume and a softly flared shape."
+  },
+  "reference": {
+    "src": "/assets/images/mwtpwni1-b69s43zj.jpg",
+    "alt": "Reference Tommy Jeans Pleated skirt",
+    "caption": "Physical reference"
+  },
+  "model": {
+    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795466067/glb_skirt_tommy_zlpnum.glb",
+    "alt": "Demonstration Pleated Skirt interactive 3D preview",
+    "cameraOrbit": "15deg 75deg 105%",
+    "demo": true
+  }
 }
