@@ -1,6 +1,10 @@
 {
   "id": "3683c664-23ee-41dc-b5a7-30867debfd8d",
-  "title": "Study 05",
+  "anchor": "study-05",
+  "title": "Midnight Skirt, Reframed",
+  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+  "status": "published",
+  "order": 50,
   "year": "—",
   "category": "Project placeholder",
   "description": "Project description to come.",
@@ -11,59 +15,33 @@
     "Digital patternmaking",
     "Fabric simulation"
   ],
-  "layout": "wide",
-  "reference": {
-    "src": "",
-    "alt": "",
-    "caption": "Physical reference",
-    "credit": ""
-  },
-  "model": {
-    "src": "assets/models/demo-tshirt.glb",
-    "poster": "",
-    "alt": "Demonstration T-shirt, interactive 3D preview",
-    "cameraOrbit": "15deg 75deg 105%",
-    "demo": true
-  },
-  "anchor": "study-05",
-  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
-  "order": 50,
-  "status": "published",
-  "construction": {
-    "fit": "",
-    "collar": "",
-    "pockets": "",
-    "seams": "",
-    "fabric": "",
-    "volume": ""
-  },
   "gallerySlides": [
     {
       "layout": "single",
       "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 01",
         "caption": "Front view"
       }
     },
     {
       "layout": "single",
       "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 02",
         "caption": "Back view"
       }
     },
     {
       "layout": "single",
       "image": {
-        "src": "",
-        "alt": "",
-        "label": "DETAIL",
         "caption": "Construction detail"
       }
     }
-  ]
+  ],
+  "reference": {
+    "caption": "Physical reference"
+  },
+  "model": {
+    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795542864/gonna_lunga_pleats_tommy_glb_reduced_bhg1qa.glb",
+    "alt": "Demonstration Long Pleated Skirt, interactive 3D preview",
+    "cameraOrbit": "15deg 75deg 105%",
+    "demo": true
+  }
 }
