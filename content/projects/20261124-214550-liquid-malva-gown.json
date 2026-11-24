@@ -1,0 +1,77 @@
+{
+  "id": "63eca9c9-8fb0-46e7-af10-4776a5eebfbf",
+  "title": "Liquid Malva Gown",
+  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+  "status": "published",
+  "order": 60,
+  "year": "2026",
+  "category": "Remake — Armani Privé SS25 Evening Dress",
+  "concept": "A sculpted evening silhouette defined by sheen, restraint, and jewel-like detail.",
+  "description": "This project is a digital remake of an Armani Privé SS25 evening dress, recreated with a focus on couture simplicity and surface refinement. The gown is developed in a glossy malva fabric with a liquid satin effect, shaped through a close-fitting silhouette, an asymmetric neckline, and two soft folds that run from the bust into the waist. The jewel brooches were also rebuilt in 3D, combining CLO 3D development with AI-assisted modelling to reproduce their intricate structure more accurately.",
+  "software": [
+    "CLO3D",
+    "AI-assisted 3D modelling"
+  ],
+  "techniques": [
+    "Digital patternmaking",
+    "Couture garment reconstruction",
+    "Rendering",
+    "Label recreation",
+    "Texture material development",
+    "3D embellishment recreation",
+    "Rendering"
+  ],
+  "gallerySlides": [
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwv5xtdg-8wea2pk1.png",
+        "alt": "Armani Privè mauve gown 1"
+      },
+      "second": {
+        "src": "/assets/images/mwv5xzyu-9rb8unvd.png",
+        "alt": "Armani Privè mauve gown 2"
+      }
+    },
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwv5yap4-r1tlfd38.png",
+        "alt": "Armani Privè mauve gown 3"
+      },
+      "second": {
+        "src": "/assets/images/mwv5yqfu-u62w6rgc.png",
+        "alt": "Armani Privè mauve gown 4"
+      }
+    },
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwv5z0y1-a4inqxrh.png",
+        "alt": "Armani Privè mauve gown 5"
+      },
+      "second": {
+        "src": "/assets/images/mwv5z78w-5gn2q4hm.png",
+        "alt": "Armani Privè mauve gown 6"
+      }
+    }
+  ],
+  "construction": {
+    "fit": "Close-fitting through the bodice, waist, and hips, with a long, elongated silhouette. The shape opens slightly toward the hem for a refined eveningwear line.",
+    "collar": "Asymmetric one-shoulder neckline. The neckline is clean and sculptural, framing the upper body with a sharp diagonal line.",
+    "pockets": "NA",
+    "seams": "Construction remains visually clean, with minimal visible stitching. A concealed side zip is placed on the left side.",
+    "fabric": "The dress is interpreted in a glossy satin-like fabric with a liquid effect. Its reflective surface enhances the malva tone and the fluidity of the silhouette.",
+    "volume": "The volume is controlled and close to the body, with slight flare toward the lower part of the dress. Soft shaping at the bust and waist adds subtle dimensionality."
+  },
+  "reference": {
+    "src": "/assets/images/mwv5wz3k-e8udy3y0.jpg",
+    "alt": "Armani Privè mauve gown reference"
+  },
+  "model": {
+    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795552614/abito_armani_prive_ss25_malva_glb_reduced_kp1ty4.glb",
+    "alt": "Demonstration Night gown with brooches interactive 3D preview",
+    "cameraOrbit": "15deg 75deg 105%",
+    "demo": false
+  }
+}
