@@ -5,38 +5,67 @@
   "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
   "status": "published",
   "order": 50,
-  "year": "—",
-  "category": "Project placeholder",
-  "description": "Project description to come.",
+  "year": "2026",
+  "category": "Remake — Tommy Hilfiger Pleated Skirt",
+  "concept": "A fluid silhouette shaped through contrast, rhythm, and movement.",
+  "description": "This project is a digital remake of a Tommy Hilfiger pleated skirt, developed in CLO 3D with a focus on clean construction and refined material behaviour. The design combines a high-waisted silhouette with structured pleats and a strong chromatic contrast between the deep midnight blue outer surface and the vivid green inner folds. The skirt label was also recreated to enhance the overall realism of the final garment.",
   "software": [
     "CLO3D"
   ],
   "techniques": [
     "Digital patternmaking",
-    "Fabric simulation"
+    "Fabric simulation",
+    "Pleat construction",
+    "Label recreation",
+    "Rendering"
   ],
   "gallerySlides": [
     {
-      "layout": "single",
-      "image": {
-        "caption": "Front view"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwv5b2a6-8lm5fs11.png",
+        "alt": "Skirt Tommy Blu e Verde 1"
+      },
+      "second": {
+        "src": "/assets/images/mwv5c27c-umfekore.png",
+        "alt": "Skirt Tommy Blu e Verde 2"
       }
     },
     {
-      "layout": "single",
-      "image": {
-        "caption": "Back view"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwv5cd2r-axwt8d4e.png",
+        "alt": "Skirt Tommy Blu e Verde 3"
+      },
+      "second": {
+        "src": "/assets/images/mwv5cjjs-06t8fmvz.png",
+        "alt": "Skirt Tommy Blu e Verde 4"
       }
     },
     {
-      "layout": "single",
-      "image": {
-        "caption": "Construction detail"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwv5cu76-hypyjbj2.png",
+        "alt": "Skirt Tommy Blu e Verde 5"
+      },
+      "second": {
+        "src": "/assets/images/mwv5d1p1-3ib01863.png",
+        "alt": "Skirt Tommy Blu e Verde 6"
       }
     }
   ],
+  "construction": {
+    "fit": "High-waisted fit with a clean hold through the waist. The skirt opens into a wider, fluid silhouette through the pleated lower section.",
+    "collar": "NA",
+    "pockets": "No pockets are featured in this design. The construction remains clean and uninterrupted.",
+    "seams": "Visible stitching is minimal and mainly concentrated around the waistband. Seam definition is kept subtle for a polished finish.",
+    "fabric": "The skirt is interpreted in a silk crepe with a soft yet structured drape. The material highlights the contrast between the midnight blue exterior and the green inner pleats.",
+    "volume": "The volume is controlled at the waist and expands through the pleated body. This creates a balanced silhouette with fluid movement and visual depth."
+  },
   "reference": {
-    "caption": "Physical reference"
+    "src": "/assets/images/mwv5ew8h-kgvmnfvy.jpg",
+    "alt": "Reference Tommy Pleated blue end green skirt",
+    "caption": "Based on Tommy Hilfiger product reference imagery."
   },
   "model": {
     "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795542864/gonna_lunga_pleats_tommy_glb_reduced_bhg1qa.glb",
