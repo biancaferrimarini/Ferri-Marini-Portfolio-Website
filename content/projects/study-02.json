@@ -1,10 +1,10 @@
 {
   "id": "e9f0a73c-4855-49da-b6cd-67ef7f075f31",
   "anchor": "study-02",
-  "title": "Pleats in Motion",
+  "title": "Pleats and Pants",
   "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
   "status": "published",
-  "order": 20,
+  "order": 40,
   "year": "2026",
   "category": "Remake — Neiman Marcus Pleated Pants",
   "concept": "Where structured tailoring meets fluid movement.",
@@ -17,25 +17,6 @@
     "Texturing",
     "Rendering"
   ],
-  "construction": {
-    "fit": "High-waisted tailored fit with a defined waistband, generous volume through the hips, and a softly tapered leg. ",
-    "collar": "Not applicable — structured high-rise waistband.",
-    "pockets": "Slanted side pockets integrated into the upper hip area, following the natural flow of the pleats.",
-    "seams": "Clean, discreet seam construction with minimal visible topstitching. Subtle seam definition preserves the smooth, refined appearance of the garment.",
-    "fabric": "Pastel blue silk-like chambray crepe with a fine woven texture, soft luminosity, and fluid drape. The simulated fabric balances gentle structure at the waist with natural folds and movement along the legs.",
-    "volume": "Deep front pleats create controlled volume through the upper leg, transitioning into an elongated, tapered silhouette. A clean waistband reinforces the tailored construction."
-  },
-  "reference": {
-    "src": "/assets/images/mwqbhtgg-q10itdah.jpg",
-    "alt": "Model wearing a Marcus Neiman pleated pants",
-    "caption": "Neiman Marcus pleated trousers — original design used as a visual reference for digital pattern reconstruction, silhouette study, and fabric interpretation."
-  },
-  "model": {
-    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795260454/panta_piega_glb_dups0o.glb",
-    "alt": "Demonstration Pleated Pants interactive 3D preview",
-    "cameraOrbit": "15deg 75deg 105%",
-    "demo": true
-  },
   "gallerySlides": [
     {
       "layout": "pair",
@@ -63,5 +44,24 @@
         "caption": "closeup render"
       }
     }
-  ]
+  ],
+  "construction": {
+    "fit": "High-waisted tailored fit with a defined waistband, generous volume through the hips, and a softly tapered leg. ",
+    "collar": "Not applicable — structured high-rise waistband.",
+    "pockets": "Slanted side pockets integrated into the upper hip area, following the natural flow of the pleats.",
+    "seams": "Clean, discreet seam construction with minimal visible topstitching. Subtle seam definition preserves the smooth, refined appearance of the garment.",
+    "fabric": "Pastel blue silk-like chambray crepe with a fine woven texture, soft luminosity, and fluid drape. The simulated fabric balances gentle structure at the waist with natural folds and movement along the legs.",
+    "volume": "Deep front pleats create controlled volume through the upper leg, transitioning into an elongated, tapered silhouette. A clean waistband reinforces the tailored construction."
+  },
+  "reference": {
+    "src": "/assets/images/mwqbhtgg-q10itdah.jpg",
+    "alt": "Model wearing a Marcus Neiman pleated pants",
+    "caption": "Neiman Marcus pleated trousers — original design used as a visual reference for digital pattern reconstruction, silhouette study, and fabric interpretation."
+  },
+  "model": {
+    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795260454/panta_piega_glb_dups0o.glb",
+    "alt": "Demonstration Pleated Pants interactive 3D preview",
+    "cameraOrbit": "15deg 75deg 105%",
+    "demo": true
+  }
 }
