@@ -1,69 +1,86 @@
 {
   "id": "b428d4fe-c2f5-437f-8278-2fb5748f1649",
-  "title": "Study 04",
-  "year": "—",
-  "category": "Project placeholder",
-  "description": "Project description to come.",
+  "anchor": "study-04",
+  "title": "Wild, Recast",
+  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+  "status": "published",
+  "order": 10,
+  "year": "2026",
+  "category": "Remake — Desigual “Animal Fur” Coat",
+  "concept": "An expressive outerwear piece, digitally rebuilt through texture, surface, and silhouette.",
+  "description": "This project is a digital remake of Desigual’s “Animal Fur” coat, recreated with a focus on surface realism and material interpretation. The animal-inspired fur pattern was rebuilt manually to closely match the original campaign imagery, while the fur texture, pile length, and overall finish were carefully adjusted to achieve a more faithful visual result. The front buttons were also remodelled separately in Blender to reflect the original design more accurately.",
   "software": [
-    "CLO3D"
+    "CLO3D",
+    "Blender"
   ],
   "techniques": [
     "Digital patternmaking",
-    "Fabric simulation"
+    "Fabric simulation",
+    "Garment reconstruction",
+    "Fur material development",
+    "Custom surface texturing",
+    "Button modelling",
+    "Rendering"
   ],
-  "layout": "wide",
-  "reference": {
-    "src": "",
-    "alt": "",
-    "caption": "Physical reference",
-    "credit": ""
-  },
-  "model": {
-    "src": "assets/models/demo-tshirt.glb",
-    "poster": "",
-    "alt": "Demonstration T-shirt, interactive 3D preview",
-    "cameraOrbit": "15deg 75deg 105%",
-    "demo": true
-  },
-  "anchor": "study-04",
-  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
-  "order": 40,
-  "status": "published",
-  "construction": {
-    "fit": "",
-    "collar": "",
-    "pockets": "",
-    "seams": "",
-    "fabric": "",
-    "volume": ""
-  },
   "gallerySlides": [
     {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 01",
-        "caption": "Front view"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwuu37m5-6iwa7ah9.png",
+        "alt": "Cappotto cavalllino 1"
+      },
+      "second": {
+        "src": "/assets/images/mwuu3n1s-bcmdvvs8.png",
+        "alt": "Cappotto cavalllino 2"
       }
     },
     {
       "layout": "single",
       "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 02",
-        "caption": "Back view"
+        "src": "/assets/images/mwuu41r1-9yk3b7lr.png",
+        "alt": "Cappotto cavalllino 3"
       }
     },
     {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "DETAIL",
-        "caption": "Construction detail"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwuu4fea-wsk9j2zy.png",
+        "alt": "Cappotto cavalllino 4"
+      },
+      "second": {
+        "src": "/assets/images/mwuu4m53-l4s51ry6.png",
+        "alt": "Cappotto cavalllino 5"
+      }
+    },
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwuu4wgv-0lutgcre.png",
+        "alt": "Cappotto cavalllino 6"
+      },
+      "second": {
+        "src": "/assets/images/mwuu52sh-ebbfinas.png",
+        "alt": "bottone Cappotto cavalllino"
       }
     }
-  ]
+  ],
+  "construction": {
+    "fit": "Straight, longline fit with a clean vertical silhouette. The coat falls close to the body while maintaining a structured outerwear proportion.",
+    "collar": "Classic rounded collar with a simple, clean neckline. The collar structure reinforces the coat’s tailored appearance.",
+    "pockets": "Visible pockets are featured on the rendered version. The design remains visually clean across the front.",
+    "seams": "Construction lines are kept minimal for a polished finish. Front closure, collar and structural seams remain discreet, with very subtle visible stitching.",
+    "fabric": "The coat is interpreted through a faux-fur-inspired surface with a custom recreated animal pattern. The texture and fur quality were manually refined to better match the original visual reference.",
+    "volume": "The overall volume is elongated and moderately structured. The surface softness of the fur contrasts with the coat’s clean and controlled shape."
+  },
+  "reference": {
+    "src": "/assets/images/mwuu8uy1-wlwklm9j.webp",
+    "alt": "reference cappotto cavallino desigual",
+    "caption": "Physical reference based on Desigual campaign and product reference imagery."
+  },
+  "model": {
+    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795533661/cappotto_cavallino_desigual_reduced_glb_xu5gum.glb",
+    "alt": "Demonstration Fur Coat, interactive 3D preview",
+    "cameraOrbit": "15deg 75deg 105%",
+    "demo": true
+  }
 }
