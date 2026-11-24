@@ -5,6 +5,107 @@
       "title": "Design Remakes",
       "projects": [
         {
+          "id": "b428d4fe-c2f5-437f-8278-2fb5748f1649",
+          "anchor": "study-04",
+          "title": "Wild, Recast",
+          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+          "status": "published",
+          "order": 10,
+          "year": "2026",
+          "category": "Remake — Desigual “Animal Fur” Coat",
+          "concept": "An expressive outerwear piece, digitally rebuilt through texture, surface, and silhouette.",
+          "description": "This project is a digital remake of Desigual’s “Animal Fur” coat, recreated with a focus on surface realism and material interpretation. The animal-inspired fur pattern was rebuilt manually to closely match the original campaign imagery, while the fur texture, pile length, and overall finish were carefully adjusted to achieve a more faithful visual result. The front buttons were also remodelled separately in Blender to reflect the original design more accurately.",
+          "software": [
+            "CLO3D",
+            "Blender"
+          ],
+          "techniques": [
+            "Digital patternmaking",
+            "Fabric simulation",
+            "Garment reconstruction",
+            "Fur material development",
+            "Custom surface texturing",
+            "Button modelling",
+            "Rendering"
+          ],
+          "construction": [
+            {
+              "label": "Fit",
+              "text": "Straight, longline fit with a clean vertical silhouette. The coat falls close to the body while maintaining a structured outerwear proportion."
+            },
+            {
+              "label": "Collar / Neckline",
+              "text": "Classic rounded collar with a simple, clean neckline. The collar structure reinforces the coat’s tailored appearance."
+            },
+            {
+              "label": "Pockets",
+              "text": "Visible pockets are featured on the rendered version. The design remains visually clean across the front."
+            },
+            {
+              "label": "Seams & topstitching",
+              "text": "Construction lines are kept minimal for a polished finish. Front closure, collar and structural seams remain discreet, with very subtle visible stitching."
+            },
+            {
+              "label": "Fabric",
+              "text": "The coat is interpreted through a faux-fur-inspired surface with a custom recreated animal pattern. The texture and fur quality were manually refined to better match the original visual reference."
+            },
+            {
+              "label": "Volume",
+              "text": "The overall volume is elongated and moderately structured. The surface softness of the fur contrasts with the coat’s clean and controlled shape."
+            }
+          ],
+          "reference": {
+            "src": "assets/images/mwuu8uy1-wlwklm9j.webp",
+            "alt": "reference cappotto cavallino desigual",
+            "caption": "Physical reference based on Desigual campaign and product reference imagery."
+          },
+          "model": {
+            "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795533661/cappotto_cavallino_desigual_reduced_glb_xu5gum.glb",
+            "alt": "Demonstration Fur Coat, interactive 3D preview",
+            "cameraOrbit": "15deg 75deg 105%",
+            "demo": true,
+            "src": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795533661/cappotto_cavallino_desigual_reduced_glb_xu5gum.glb",
+            "poster": "",
+            "preview": ""
+          },
+          "renders": [
+            {
+              "src": "assets/images/mwuu37m5-6iwa7ah9.png",
+              "alt": "Cappotto cavalllino 1",
+              "desktopPair": 0
+            },
+            {
+              "src": "assets/images/mwuu3n1s-bcmdvvs8.png",
+              "alt": "Cappotto cavalllino 2",
+              "desktopPair": 0
+            },
+            {
+              "src": "assets/images/mwuu41r1-9yk3b7lr.png",
+              "alt": "Cappotto cavalllino 3"
+            },
+            {
+              "src": "assets/images/mwuu4fea-wsk9j2zy.png",
+              "alt": "Cappotto cavalllino 4",
+              "desktopPair": 2
+            },
+            {
+              "src": "assets/images/mwuu4m53-l4s51ry6.png",
+              "alt": "Cappotto cavalllino 5",
+              "desktopPair": 2
+            },
+            {
+              "src": "assets/images/mwuu4wgv-0lutgcre.png",
+              "alt": "Cappotto cavalllino 6",
+              "desktopPair": 3
+            },
+            {
+              "src": "assets/images/mwuu52sh-ebbfinas.png",
+              "alt": "bottone Cappotto cavalllino",
+              "desktopPair": 3
+            }
+          ]
+        },
+        {
           "id": "e166f2aa-b94b-4354-85b1-882de405769c",
           "anchor": "study-03",
           "title": "Pleats in Play",
@@ -179,85 +280,6 @@
             {
               "src": "assets/images/mwtpaskp-gw5h3uae.png",
               "alt": "CK shirt 6"
-            }
-          ]
-        },
-        {
-          "id": "b428d4fe-c2f5-437f-8278-2fb5748f1649",
-          "title": "Study 04",
-          "year": "—",
-          "category": "Project placeholder",
-          "description": "Project description to come.",
-          "software": [
-            "CLO3D"
-          ],
-          "techniques": [
-            "Digital patternmaking",
-            "Fabric simulation"
-          ],
-          "layout": "wide",
-          "reference": {
-            "src": "",
-            "alt": "",
-            "caption": "Physical reference",
-            "credit": ""
-          },
-          "model": {
-            "src": "assets/models/demo-tshirt.glb",
-            "poster": "",
-            "alt": "Demonstration T-shirt, interactive 3D preview",
-            "cameraOrbit": "15deg 75deg 105%",
-            "demo": true,
-            "preview": ""
-          },
-          "anchor": "study-04",
-          "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
-          "order": 40,
-          "status": "published",
-          "construction": [
-            {
-              "label": "Fit",
-              "text": "To come"
-            },
-            {
-              "label": "Collar / Neckline",
-              "text": "To come"
-            },
-            {
-              "label": "Pockets",
-              "text": "To come"
-            },
-            {
-              "label": "Seams & topstitching",
-              "text": "To come"
-            },
-            {
-              "label": "Fabric",
-              "text": "To come"
-            },
-            {
-              "label": "Volume",
-              "text": "To come"
-            }
-          ],
-          "renders": [
-            {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 01",
-              "caption": "Front view"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "RENDER 02",
-              "caption": "Back view"
-            },
-            {
-              "src": "",
-              "alt": "",
-              "label": "DETAIL",
-              "caption": "Construction detail"
             }
           ]
         },
