@@ -1,0 +1,93 @@
+{
+  "id": "315a7686-e1c2-4233-91fa-bc3b253bfd8d",
+  "title": "Blazer, Sharpened",
+  "collection": "9f43f5dd-b585-4fdb-8ca5-8606ca56c093",
+  "status": "published",
+  "order": 70,
+  "year": "2026",
+  "category": "Remake — Mugler Structured Lace-Up Blazer",
+  "concept": "Where precision tailoring becomes sculptural form.",
+  "description": "A digital reconstruction of a Mugler tailored blazer, exploring the tension between architectural structure and body-contouring design. The sharply extended shoulders contrast with a sculpted waist, defined by intricate side lacing. An asymmetric concealed fastening, angular lapels, and structured flap pockets complete the silhouette, recreated with a focus on precise tailoring and controlled fabric volume.",
+  "software": [
+    "CLO3D"
+  ],
+  "techniques": [
+    "Digital patternmaking",
+    "Couture garment reconstruction",
+    "Rendering",
+    "Tailoring",
+    "Lace-Up Detailing"
+  ],
+  "gallerySlides": [
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwza82fn-i3fo82xn.png",
+        "alt": "Mugler Laced Blazer 1"
+      },
+      "second": {
+        "src": "/assets/images/mwza8fad-lobbtj1k.png",
+        "alt": "Mugler Laced Blazer 2"
+      }
+    },
+    {
+      "layout": "single",
+      "image": {
+        "src": "/assets/images/mwza9p9s-43ue2k7b.png",
+        "alt": "Mugler Laced Blazer 3"
+      }
+    },
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwza9zqj-p3i1s18u.png",
+        "alt": "Mugler Laced Blazer 4"
+      },
+      "second": {
+        "src": "/assets/images/mwzaa70n-w9t30626.png",
+        "alt": "Mugler Laced Blazer 5"
+      }
+    },
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwzab23t-q2tl48fa.png",
+        "alt": "Mugler Laced Blazer 6"
+      },
+      "second": {
+        "src": "/assets/images/mwzab8qh-m34lb9gv.png",
+        "alt": "Mugler Laced Blazer  7"
+      }
+    },
+    {
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwzabjgj-yn4oreux.png",
+        "alt": "Mugler Laced Blazer 8"
+      },
+      "second": {
+        "src": "/assets/images/mwzabtw4-54257q1x.png",
+        "alt": "Mugler Laced Blazer  9"
+      }
+    }
+  ],
+  "construction": {
+    "fit": "Body-contouring tailored fit with a sharply defined waist and exaggerated, angular shoulders.",
+    "collar": "Notched lapels with an integrated collar construction, forming a sharp, elongated V-shaped neckline.",
+    "pockets": "Two structured hip-level flap pockets, positioned on the front panels.",
+    "seams": "Clean panel seams with minimal visible topstitching, side lacing, and a concealed asymmetric front fastening.",
+    "fabric": "Black lightweight wool suiting, inspired by tropical wool, with a fine texture and structured drape.",
+    "volume": "Strong, pointed shoulder volume contrasts with a tightly sculpted waist and a subtly flared lower silhouette."
+  },
+  "reference": {
+    "src": "/assets/images/mwza28gh-2dnkbb3z.jpg",
+    "alt": "Mugler tailored lace-up blazer ",
+    "caption": "Mugler tailored lace-up blazer — original design referenced for shoulder architecture, waist shaping, and garment construction."
+  },
+  "model": {
+    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795801483/giacca_sartoriale_mugler_glb_reduced_nt8pb0.glb",
+    "alt": "Demonstration Mugler Blazer Laces with brooches interactive 3D preview",
+    "cameraOrbit": "15deg 75deg 105%",
+    "demo": false
+  }
+}
