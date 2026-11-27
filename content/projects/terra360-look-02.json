@@ -1,83 +1,75 @@
 {
   "id": "34438717-7182-4519-bff2-6c4f054c0df0",
-  "title": "Look 02",
-  "concept": "",
-  "year": "",
-  "category": "Terra360 / Project to come",
-  "description": "Project description to come.",
-  "software": [],
-  "techniques": [],
-  "layout": "wide",
-  "reference": {
-    "src": "",
-    "alt": "",
-    "caption": "Reference / Sketch to come",
-    "credit": ""
-  },
-  "model": {
-    "src": "assets/models/demo-tshirt.glb",
-    "poster": "",
-    "alt": "Demonstration T-shirt, interactive 3D preview",
-    "cameraOrbit": "15deg 75deg 105%",
-    "demo": true
-  },
   "anchor": "terra360-look-02",
+  "title": "Batwing Dress, Cut Away",
   "collection": "077b7bee-1818-421e-a85c-86145c30a2d7",
-  "order": 20,
   "status": "published",
-  "construction": {
-    "fit": "",
-    "collar": "",
-    "pockets": "",
-    "seams": "",
-    "fabric": "",
-    "volume": ""
-  },
+  "order": 20,
+  "year": "2026",
+  "category": "Original Design — Terra 360 Collection",
+  "concept": "A sharp silhouette softened by layering, material contrast, and sustainable experimentation.",
+  "description": "This look is an original design developed for the Terra 360 collection, conceived around a sculpted silhouette and a layered cut-away construction. The outer dress is built in a scuba-like material with a close-fitting shape, long sleeves, a high neck, and strong winged shoulders that define its dramatic upper structure. A diagonal opening at the left waist reveals an underlying skirt panel in translucent bio-leather, connecting the garment to the collection’s focus on sustainability and material experimentation.",
+  "software": [
+    "CLO3D"
+  ],
+  "techniques": [
+    "Digital patternmaking",
+    "Fabric simulation",
+    "Rendering",
+    "Sustainable material interpretation",
+    "Cut-away construction"
+  ],
   "gallerySlides": [
     {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 01",
-        "caption": "Front view / To come"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwzbg26s-fzifu7h2.png",
+        "alt": "BAT DRESS 1"
+      },
+      "second": {
+        "src": "/assets/images/mwzbg6fr-sv2l56lg.png",
+        "alt": "BAT DRESS 2"
       }
     },
     {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 02",
-        "caption": "Back view / To come"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwzbgc2t-ce82bvcj.png",
+        "alt": "BAT DRESS 3"
+      },
+      "second": {
+        "src": "/assets/images/mwzbgh5g-7py5zc39.png",
+        "alt": "BAT DRESS 4"
       }
     },
     {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 03",
-        "caption": "Side view / To come"
-      }
-    },
-    {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "DETAIL 01",
-        "caption": "Detail 01 / To come"
-      }
-    },
-    {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "DETAIL 02",
-        "caption": "Detail 02 / To come"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwzbgrrd-yinz9wj2.png",
+        "alt": "BAT DRESS 5"
+      },
+      "second": {
+        "src": "/assets/images/mwzbgxa3-81qxu1oo.png",
+        "alt": "BAT DRESS 6"
       }
     }
-  ]
+  ],
+  "construction": {
+    "fit": "Close-fitting through the body with a long, narrow silhouette. The dress remains structured and controlled, while the under-skirt follows a fitted pencil shape.",
+    "collar": "High turtleneck collar with a clean, close fit around the neck. The neckline reinforces the sharp and elongated look of the garment.",
+    "pockets": "NA",
+    "seams": "The construction is defined by shaped seam lines and an asymmetric cut-away opening from the left waist downward. Visible topstitching remains minimal.",
+    "fabric": "The outer layer is interpreted in a scuba-like fabric with a smooth, compact structure. The underlying skirt is developed in a translucent bio-leather inspired by natural material experimentation.",
+    "volume": "The volume is slim and body-skimming, with emphasis placed on the sculptural shoulders. The layered opening adds depth without interrupting the overall elongated line."
+  },
+  "reference": {
+    "caption": "Manufactured Garment to come"
+  },
+  "model": {
+    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795804025/BAT_DRESS_BIO_LEATHER_SKIRT_GLB_reduced_h54znv.glb",
+    "alt": "Demonstration Bat dress, interactive 3D preview",
+    "cameraOrbit": "15deg 75deg 105%",
+    "demo": true,
+    "message": "DEMO / 3D BAT DRESS"
+  }
 }
