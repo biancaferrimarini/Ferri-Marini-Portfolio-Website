@@ -1,83 +1,83 @@
 {
   "id": "7c902d16-46b6-4a9e-bd0b-28699eedb829",
-  "title": "Look 01",
-  "concept": "",
-  "year": "",
-  "category": "Terra360 / Project to come",
-  "description": "Project description to come.",
-  "software": [],
-  "techniques": [],
-  "layout": "wide",
-  "reference": {
-    "src": "",
-    "alt": "",
-    "caption": "Reference / Sketch to come",
-    "credit": ""
-  },
-  "model": {
-    "src": "assets/models/demo-tshirt.glb",
-    "poster": "",
-    "alt": "Demonstration T-shirt, interactive 3D preview",
-    "cameraOrbit": "15deg 75deg 105%",
-    "demo": true
-  },
   "anchor": "terra360-look-01",
+  "title": "Bustier Skirt Look, Embellished",
   "collection": "077b7bee-1818-421e-a85c-86145c30a2d7",
-  "order": 10,
   "status": "published",
-  "construction": {
-    "fit": "",
-    "collar": "",
-    "pockets": "",
-    "seams": "",
-    "fabric": "",
-    "volume": ""
-  },
+  "order": 10,
+  "year": "2026",
+  "category": "Original Design — Terra 360 Collection",
+  "concept": "A sculpted silhouette balancing softness, restraint, and ornamental detail.",
+  "description": "This look is an original design developed for the Terra 360 collection, built around the contrast between structured form and softened volume. The outfit combines a crisp cotton poplin shirt with a high bustier skirt in dark burgundy faux leather, cut close through the waist and upper body before opening into a wider skirt silhouette. Long glossy gloves extend the vertical line of the look, while an embellished cotton tie introduces a decorative focal point through embroidered and jewel-like detailing.",
+  "software": [
+    "CLO3D"
+  ],
+  "techniques": [
+    "Digital patternmaking",
+    "Fabric simulation",
+    "Rendering",
+    "Tailoring",
+    "Material setup",
+    "Embellished detail development"
+  ],
   "gallerySlides": [
     {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 01",
-        "caption": "Front view / To come"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwzb144y-uncaf231.png",
+        "alt": " Shirt and Leather Skirt 1"
+      },
+      "second": {
+        "src": "/assets/images/mwzb1bgj-w8f5tyds.png",
+        "alt": " Shirt and Leather Skirt 2"
       }
     },
     {
       "layout": "single",
       "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 02",
-        "caption": "Back view / To come"
+        "src": "/assets/images/mwzb2tfe-c1wt5kg4.png",
+        "alt": " Shirt and Leather Skirt 3"
       }
     },
     {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "RENDER 03",
-        "caption": "Side view / To come"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwzb36la-r66j5zfn.png",
+        "alt": " Shirt and Leather Skirt 4"
+      },
+      "second": {
+        "src": "/assets/images/mwzb4gv8-o4c9miwr.png",
+        "alt": " Shirt and Leather Skirt 5"
       }
     },
     {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "DETAIL 01",
-        "caption": "Detail 01 / To come"
-      }
-    },
-    {
-      "layout": "single",
-      "image": {
-        "src": "",
-        "alt": "",
-        "label": "DETAIL 02",
-        "caption": "Detail 02 / To come"
+      "layout": "pair",
+      "first": {
+        "src": "/assets/images/mwzb4npv-a9ec3qw0.png",
+        "alt": " Shirt and Leather Skirt 6"
+      },
+      "second": {
+        "src": "/assets/images/mwzb4t2k-dhzcvkhy.png",
+        "alt": " Shirt and Leather Skirt 7"
       }
     }
-  ]
+  ],
+  "construction": {
+    "fit": "The shirt has a softly rounded fit, creating light volume through the upper body. The bustier skirt is fitted through the waist and upper torso, then opens into a wider, semi-flared shape.",
+    "collar": "Classic small shirt collar, close to a French collar proportion. The neckline is completed with a cotton tie placed as a central decorative element.",
+    "pockets": "NA",
+    "seams": "The skirt is structured through vertical panel seams that define and support the silhouette. Stitching remains subtle and clean across the shirt and accessories.",
+    "fabric": "The look combines crisp cotton poplin, glossy dark burgundy faux leather, and a cotton tie embellished with decorative detailing. The contrast between matte and reflective surfaces adds depth to the outfit.",
+    "volume": "Volume is restrained in the lower structured section and softer in the upper shirt. The silhouette expands gradually from the fitted bustier into a controlled, wider skirt."
+  },
+  "reference": {
+    "caption": "Manufactured garment to come"
+  },
+  "model": {
+    "externalURL": "https://res.cloudinary.com/uwtywrfc/image/upload/v1795803106/camicia_gonna_pelle_glb_reduced_b0jksi.glb",
+    "alt": "Demonstration Shirt and Leather Skirt interactive 3D preview",
+    "cameraOrbit": "15deg 75deg 105%",
+    "demo": true,
+    "message": "DEMO / 3D Shirt and Leather Skirt"
+  }
 }
